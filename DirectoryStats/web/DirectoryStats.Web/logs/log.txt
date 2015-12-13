@@ -1,0 +1,4 @@
+2015-12-12 17:38:39,691 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Scanning c:\temp
+2015-12-12 17:41:05,765 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Scanning c:\temp
+2015-12-12 17:41:52,734 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Scanning c:\temp
+2015-12-12 18:00:07,610 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Scanning c:\temp

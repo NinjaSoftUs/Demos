@@ -1,0 +1,1 @@
+C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\artifacts\obj\DirectoryStats.Web\Debug\DirectoryStats.Web.xprojResolveAssemblyReference.cache

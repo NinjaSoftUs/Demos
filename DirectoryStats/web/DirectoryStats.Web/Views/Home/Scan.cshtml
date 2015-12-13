@@ -1,0 +1,51 @@
+﻿@model NinjaSoft.CommonInfrastructure.Models.DirStatsSummery
+
+@{
+    ViewBag.Title = "Scan";
+}
+
+<h2>Scan</h2>
+
+<div>
+
+    <form method="GET">
+
+        <div>
+            <label>Path1:</label>
+            <input type="search" name="path1" />
+        </div>
+        <div>
+            <label>Path2:</label>
+            <input type="search" name="path2" />
+        </div>
+        <div>
+            <label>Path3:</label>
+            <input type="search" name="path3" />
+        </div>
+        <div><input type="submit" value="Scan" /></div>
+    </form>
+
+    @*@using (Ajax.BeginForm(
+                    new AjaxOptions{
+                        HttpMethod = "post",
+                        InsertionMode = InsertionMode.Replace,
+                        UpdateTargetId = "ScanResult"}))
+        {
+            <div>
+                <label>Path1:</label>
+                <input type="search" name="path1" />
+            </div>
+                <div>
+                    <label>Path2:</label>
+                    <input type="search" name="path2" />
+                </div>
+                <div>
+                    <label>Path3:</label>
+                    <input type="search" name="path3" />
+                </div>
+                <div><input type="submit" value="Scan" /></div>
+        }*@
+</div>
+
+<div id="ScanResult">
+</div>
