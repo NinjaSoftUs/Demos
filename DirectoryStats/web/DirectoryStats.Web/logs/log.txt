@@ -1,4 +1,670 @@
 2015-12-12 17:38:39,691 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Scanning c:\temp
 2015-12-12 17:41:05,765 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Scanning c:\temp
 2015-12-12 17:41:52,734 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Scanning c:\temp
-2015-12-12 18:00:07,610 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Scanning c:\temp
+2015-12-12 18:21:07,920 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Scanning c:\temp
+2015-12-12 18:49:49,357 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Scanning qe
+2015-12-12 18:49:49,377 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'C:\Program Files (x86)\IIS Express\qe'.
+2015-12-12 18:49:49,378 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'C:\Program Files (x86)\IIS Express\qe'.
+2015-12-12 18:55:33,584 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Scanning das
+2015-12-12 18:55:39,004 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'C:\Program Files (x86)\IIS Express\das'.
+2015-12-12 18:55:39,014 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'C:\Program Files (x86)\IIS Express\das'.
+2015-12-12 19:00:06,604 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Scanning e:\
+2015-12-12 19:00:06,647 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-18' is denied.
+2015-12-12 19:00:15,173 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-1301490750-3184388209-3121372309-106390' is denied.
+2015-12-12 19:00:15,190 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-1514951835-2046003855-1839773499-1001' is denied.
+2015-12-12 19:00:15,209 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-1705063060-4213844116-2729571231-1001' is denied.
+2015-12-12 19:00:20,935 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-1755390995-100713114-1414739251-1001' is denied.
+2015-12-12 19:00:20,952 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-1755390995-100713114-1414739251-1002' is denied.
+2015-12-12 19:00:20,967 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-2078033408-3037966540-1629587061-1001' is denied.
+2015-12-12 19:00:20,991 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-2783274068-1461838048-1182606293-1001' is denied.
+2015-12-12 19:00:21,004 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-2995380752-1956577068-1271320645-1001' is denied.
+2015-12-12 19:00:21,018 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-30727560-1371454713-2093655339-1000' is denied.
+2015-12-12 19:00:21,038 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-910736326-198359723-1436694673-1001' is denied.
+2015-12-12 19:01:15,265 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - The handle is invalid.
+
+2015-12-12 19:01:31,387 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'e:\cbackup\Users\Big Dave\Documents\My Music'.
+2015-12-12 19:01:31,387 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'e:\cbackup\Users\Big Dave\Documents\My Music'.
+2015-12-12 19:01:31,388 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'e:\cbackup\Users\Big Dave\Documents\My Pictures'.
+2015-12-12 19:01:31,388 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'e:\cbackup\Users\Big Dave\Documents\My Pictures'.
+2015-12-12 19:01:31,388 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'e:\cbackup\Users\Big Dave\Documents\My Videos'.
+2015-12-12 19:01:31,388 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'e:\cbackup\Users\Big Dave\Documents\My Videos'.
+2015-12-12 19:02:39,582 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\System Volume Information' is denied.
+2015-12-12 19:03:43,489 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Scanning e:\
+2015-12-12 19:03:43,568 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-18' is denied.
+2015-12-12 19:03:43,581 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-1301490750-3184388209-3121372309-106390' is denied.
+2015-12-12 19:03:43,601 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-1514951835-2046003855-1839773499-1001' is denied.
+2015-12-12 19:03:43,652 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-1705063060-4213844116-2729571231-1001' is denied.
+2015-12-12 19:03:43,652 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-1755390995-100713114-1414739251-1001' is denied.
+2015-12-12 19:03:43,667 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-1755390995-100713114-1414739251-1002' is denied.
+2015-12-12 19:03:43,683 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-2078033408-3037966540-1629587061-1001' is denied.
+2015-12-12 19:03:43,699 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-2783274068-1461838048-1182606293-1001' is denied.
+2015-12-12 19:03:43,713 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-2995380752-1956577068-1271320645-1001' is denied.
+2015-12-12 19:03:43,729 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-30727560-1371454713-2093655339-1000' is denied.
+2015-12-12 19:03:43,751 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-910736326-198359723-1436694673-1001' is denied.
+2015-12-12 19:03:48,010 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'e:\cbackup\Users\Big Dave\Documents\My Music'.
+2015-12-12 19:03:48,010 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'e:\cbackup\Users\Big Dave\Documents\My Music'.
+2015-12-12 19:03:48,024 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'e:\cbackup\Users\Big Dave\Documents\My Pictures'.
+2015-12-12 19:03:48,024 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'e:\cbackup\Users\Big Dave\Documents\My Pictures'.
+2015-12-12 19:03:48,038 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'e:\cbackup\Users\Big Dave\Documents\My Videos'.
+2015-12-12 19:03:48,038 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'e:\cbackup\Users\Big Dave\Documents\My Videos'.
+2015-12-12 19:04:00,347 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\System Volume Information' is denied.
+2015-12-12 19:04:50,345 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Scanning c:\temp
+2015-12-12 19:05:12,634 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Scanning c:\temp
+2015-12-12 19:05:30,923 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Scanning c:\temp
+2015-12-12 19:14:07,455 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Scanning c:\temp
+2015-12-12 19:14:32,283 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Scanning c:\temp
+2015-12-13 05:56:22,499 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Scanning c:\temp
+2015-12-13 06:00:31,003 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Scanning c:\windows
+2015-12-13 06:00:31,010 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\windows\appcompat\Programs' is denied.
+2015-12-13 06:00:33,461 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\windows\CSC' is denied.
+2015-12-13 06:00:33,615 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\windows\InfusedApps' is denied.
+2015-12-13 06:00:34,131 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\windows\LiveKernelReports' is denied.
+2015-12-13 06:00:34,131 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\windows\Logs\HomeGroup' is denied.
+2015-12-13 06:00:34,147 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\windows\Logs\SystemRestore' is denied.
+2015-12-13 06:00:34,147 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\windows\Logs\Telephony' is denied.
+2015-12-13 06:00:35,534 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\windows\ModemLogs' is denied.
+2015-12-13 06:00:35,581 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\windows\Prefetch' is denied.
+2015-12-13 06:00:35,597 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\windows\Resources\Themes\aero\VSCache' is denied.
+2015-12-13 06:00:35,616 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\windows\security\audit' is denied.
+2015-12-13 06:00:35,616 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\windows\security\cap' is denied.
+2015-12-13 06:00:35,619 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\windows\ServiceProfiles\LocalService' is denied.
+2015-12-13 06:00:35,619 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\windows\ServiceProfiles\NetworkService' is denied.
+2015-12-13 06:00:37,338 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\windows\System32\Com\dmp' is denied.
+2015-12-13 06:00:37,353 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\windows\System32\config' is denied.
+2015-12-13 06:00:37,353 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\windows\System32\Configuration' is denied.
+2015-12-13 06:00:37,838 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\windows\System32\inetsrv\Config' is denied.
+2015-12-13 06:00:37,854 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\windows\System32\LogFiles\Fax\Incoming' is denied.
+2015-12-13 06:00:37,854 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\windows\System32\LogFiles\Fax\Outgoing' is denied.
+2015-12-13 06:00:37,854 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\windows\System32\LogFiles\Firewall' is denied.
+2015-12-13 06:00:37,854 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\windows\System32\LogFiles\HTTPERR' is denied.
+2015-12-13 06:00:37,854 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\windows\System32\LogFiles\WMI\RtBackup' is denied.
+2015-12-13 06:00:37,870 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\windows\System32\MsDtc' is denied.
+2015-12-13 06:00:37,870 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\windows\System32\networklist' is denied.
+2015-12-13 06:00:37,885 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\windows\System32\sru' is denied.
+2015-12-13 06:00:37,885 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\windows\System32\Tasks' is denied.
+2015-12-13 06:00:38,186 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\windows\SysWOW64\Com\dmp' is denied.
+2015-12-13 06:00:38,186 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\windows\SysWOW64\config' is denied.
+2015-12-13 06:00:38,186 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\windows\SysWOW64\Configuration' is denied.
+2015-12-13 06:00:38,201 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\windows\SysWOW64\inetsrv\Config' is denied.
+2015-12-13 06:00:38,224 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\windows\SysWOW64\MsDtc' is denied.
+2015-12-13 06:00:38,224 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\windows\SysWOW64\networklist' is denied.
+2015-12-13 06:00:38,239 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\windows\SysWOW64\sru' is denied.
+2015-12-13 06:00:38,239 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\windows\SysWOW64\Tasks' is denied.
+2015-12-13 06:01:22,563 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Scanning c:\temp
+2015-12-13 06:01:27,551 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Scanning asfs
+2015-12-13 06:01:27,551 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'C:\Program Files (x86)\IIS Express\asfs'.
+2015-12-13 06:01:44,556 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Scanning asfs
+2015-12-13 06:01:44,556 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Scanning c:\temp
+2015-12-13 06:01:44,572 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'C:\Program Files (x86)\IIS Express\asfs'.
+2015-12-13 06:02:14,765 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Scanning c:\temp
+2015-12-13 06:29:53,521 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Scanning c:\temp
+2015-12-13 15:20:49,264 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Adding Scanning path: c:\temp
+2015-12-13 15:20:52,593 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Scan
+2015-12-13 15:21:05,558 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Complete
+2015-12-13 15:21:30,981 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Adding Scanning path: c:\temp
+2015-12-13 15:21:32,292 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Scan
+2015-12-13 15:21:36,260 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Complete
+2015-12-13 15:30:51,859 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Adding Scanning path: sfsdf
+2015-12-13 15:30:51,859 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Adding Scanning path: sfdsf
+2015-12-13 15:30:51,859 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Adding Scanning path: sfdsf
+2015-12-13 15:30:51,859 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Scan
+2015-12-13 15:30:51,860 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'C:\Program Files (x86)\IIS Express\sfsdf'.
+2015-12-13 15:30:51,864 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'C:\Program Files (x86)\IIS Express\sfdsf'.
+2015-12-13 15:30:51,864 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'C:\Program Files (x86)\IIS Express\sfdsf'.
+2015-12-13 15:30:51,865 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Complete
+2015-12-13 15:46:35,730 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Adding Scanning path: c:\temp;path2=;path3=
+2015-12-13 15:46:35,737 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Scan
+2015-12-13 15:46:35,737 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'c:\temp;path2=;path3='.
+2015-12-13 15:46:35,737 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Complete
+2015-12-13 15:48:27,528 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Adding Scanning path: c:\temp;path2=;path3=
+2015-12-13 15:48:27,528 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Scan
+2015-12-13 15:48:27,529 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'c:\temp;path2=;path3='.
+2015-12-13 15:48:27,529 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Complete
+2015-12-13 15:59:15,442 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Adding Scanning path: c:\temp
+2015-12-13 15:59:16,845 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Scan
+2015-12-13 15:59:16,917 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Complete
+2015-12-13 15:59:36,422 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Adding Scanning path: c:\temp
+2015-12-13 15:59:36,422 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Adding Scanning path: dfgd
+2015-12-13 15:59:36,422 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Adding Scanning path: dgfdg
+2015-12-13 15:59:52,109 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Scan
+2015-12-13 15:59:52,159 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'C:\Program Files (x86)\IIS Express\dfgd'.
+2015-12-13 15:59:52,970 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'C:\Program Files (x86)\IIS Express\dgfdg'.
+2015-12-13 15:59:52,971 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Complete
+2015-12-13 16:01:05,709 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Adding Scanning path: c:\temp
+2015-12-13 16:01:05,710 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Scan
+2015-12-13 16:01:05,740 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Complete
+2015-12-13 16:01:53,774 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Adding Scanning path: c:\temp
+2015-12-13 16:01:53,774 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Scan
+2015-12-13 16:01:56,529 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Complete
+2015-12-13 16:02:52,587 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Adding Scanning path: c:\temp
+2015-12-13 16:02:52,587 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Scan
+2015-12-13 16:02:52,602 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Complete
+2015-12-13 16:08:20,742 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Adding Scanning path: c:\temp
+2015-12-13 16:08:20,742 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Scan
+2015-12-13 16:08:20,773 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Complete
+2015-12-13 16:18:56,872 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Adding Scanning path: c:\temp
+2015-12-13 16:18:56,896 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Scan
+2015-12-13 16:30:22,601 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Adding Scanning path: c:\temp
+2015-12-13 16:30:22,610 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Scan
+2015-12-13 16:30:22,640 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Complete
+2015-12-13 16:31:16,109 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Adding Scanning path: c:\temp
+2015-12-13 16:31:16,109 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Scan
+2015-12-13 16:31:16,136 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Complete
+2015-12-13 16:32:41,044 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Adding Scanning path: c:\temp
+2015-12-13 16:32:41,044 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Scan
+2015-12-13 16:32:41,060 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Complete
+2015-12-13 16:38:12,472 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Adding Scanning path: c:\temp
+2015-12-13 16:38:12,485 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Scan
+2015-12-13 16:38:12,523 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Complete
+2015-12-13 16:51:09,976 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Adding Scanning path: e:\
+2015-12-13 16:51:09,976 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Scan
+2015-12-13 16:51:15,789 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-18' is denied.
+2015-12-13 16:51:15,821 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-1301490750-3184388209-3121372309-106390' is denied.
+2015-12-13 16:51:15,857 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-1514951835-2046003855-1839773499-1001' is denied.
+2015-12-13 16:51:15,897 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-1705063060-4213844116-2729571231-1001' is denied.
+2015-12-13 16:51:15,941 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-1755390995-100713114-1414739251-1001' is denied.
+2015-12-13 16:51:15,959 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-1755390995-100713114-1414739251-1002' is denied.
+2015-12-13 16:51:16,004 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-2078033408-3037966540-1629587061-1001' is denied.
+2015-12-13 16:51:16,044 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-2783274068-1461838048-1182606293-1001' is denied.
+2015-12-13 16:51:16,082 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-2995380752-1956577068-1271320645-1001' is denied.
+2015-12-13 16:51:16,117 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-30727560-1371454713-2093655339-1000' is denied.
+2015-12-13 16:51:16,186 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-910736326-198359723-1436694673-1001' is denied.
+2015-12-13 16:51:46,450 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'e:\cbackup\Users\Big Dave\Documents\My Music'.
+2015-12-13 16:51:46,450 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'e:\cbackup\Users\Big Dave\Documents\My Music'.
+2015-12-13 16:51:46,488 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'e:\cbackup\Users\Big Dave\Documents\My Pictures'.
+2015-12-13 16:51:46,488 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'e:\cbackup\Users\Big Dave\Documents\My Pictures'.
+2015-12-13 16:51:46,527 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'e:\cbackup\Users\Big Dave\Documents\My Videos'.
+2015-12-13 16:51:46,527 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'e:\cbackup\Users\Big Dave\Documents\My Videos'.
+2015-12-13 16:53:57,472 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\System Volume Information' is denied.
+2015-12-13 16:54:01,433 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Complete
+2015-12-13 16:56:12,767 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Adding Scanning path: e:\
+2015-12-13 16:56:12,778 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Scan
+2015-12-13 16:56:12,860 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-18' is denied.
+2015-12-13 16:56:12,880 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-1301490750-3184388209-3121372309-106390' is denied.
+2015-12-13 16:56:12,912 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-1514951835-2046003855-1839773499-1001' is denied.
+2015-12-13 16:56:12,962 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-1705063060-4213844116-2729571231-1001' is denied.
+2015-12-13 16:56:12,998 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-1755390995-100713114-1414739251-1001' is denied.
+2015-12-13 16:56:13,034 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-1755390995-100713114-1414739251-1002' is denied.
+2015-12-13 16:56:13,068 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-2078033408-3037966540-1629587061-1001' is denied.
+2015-12-13 16:56:13,106 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-2783274068-1461838048-1182606293-1001' is denied.
+2015-12-13 16:56:13,141 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-2995380752-1956577068-1271320645-1001' is denied.
+2015-12-13 16:56:13,178 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-30727560-1371454713-2093655339-1000' is denied.
+2015-12-13 16:56:13,216 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-910736326-198359723-1436694673-1001' is denied.
+2015-12-13 16:56:17,353 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'e:\cbackup\Users\Big Dave\Documents\My Music'.
+2015-12-13 16:56:17,353 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'e:\cbackup\Users\Big Dave\Documents\My Music'.
+2015-12-13 16:56:17,384 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'e:\cbackup\Users\Big Dave\Documents\My Pictures'.
+2015-12-13 16:56:17,384 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'e:\cbackup\Users\Big Dave\Documents\My Pictures'.
+2015-12-13 16:56:17,418 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'e:\cbackup\Users\Big Dave\Documents\My Videos'.
+2015-12-13 16:56:17,422 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'e:\cbackup\Users\Big Dave\Documents\My Videos'.
+2015-12-13 16:56:30,195 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\System Volume Information' is denied.
+2015-12-13 16:56:30,681 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Complete
+2015-12-13 17:01:42,923 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Adding Scanning path: c:\temp
+2015-12-13 17:01:42,923 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Scan
+2015-12-13 17:01:42,938 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Complete
+2015-12-13 17:02:38,035 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Adding Scanning path: c:\temp
+2015-12-13 17:02:38,035 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Scan
+2015-12-13 17:02:38,046 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Complete
+2015-12-13 17:03:02,412 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Adding Scanning path: c:\temp
+2015-12-13 17:03:02,412 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Scan
+2015-12-13 17:03:02,427 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Complete
+2015-12-13 17:05:11,723 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Adding Scanning path: c:\temp
+2015-12-13 17:05:11,732 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Scan
+2015-12-13 17:05:11,763 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Complete
+2015-12-13 17:17:08,930 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Adding Scanning path: c:\temp
+2015-12-13 17:17:08,942 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Scan
+2015-12-13 17:17:08,977 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Complete
+2015-12-13 17:17:22,615 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Adding Scanning path: c:\temp
+2015-12-13 17:17:22,615 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Adding Scanning path: e:\
+2015-12-13 17:17:22,615 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Scan
+2015-12-13 17:17:22,794 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-1301490750-3184388209-3121372309-106390' is denied.
+2015-12-13 17:17:22,794 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-18' is denied.
+2015-12-13 17:17:22,795 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-1514951835-2046003855-1839773499-1001' is denied.
+2015-12-13 17:17:22,850 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-1705063060-4213844116-2729571231-1001' is denied.
+2015-12-13 17:17:22,866 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-1755390995-100713114-1414739251-1001' is denied.
+2015-12-13 17:17:22,897 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-1755390995-100713114-1414739251-1002' is denied.
+2015-12-13 17:17:22,927 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-2078033408-3037966540-1629587061-1001' is denied.
+2015-12-13 17:17:22,962 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-2783274068-1461838048-1182606293-1001' is denied.
+2015-12-13 17:17:22,991 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-2995380752-1956577068-1271320645-1001' is denied.
+2015-12-13 17:17:23,033 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-30727560-1371454713-2093655339-1000' is denied.
+2015-12-13 17:17:23,052 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-910736326-198359723-1436694673-1001' is denied.
+2015-12-13 17:17:27,128 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'e:\cbackup\Users\Big Dave\Documents\My Music'.
+2015-12-13 17:17:27,128 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'e:\cbackup\Users\Big Dave\Documents\My Music'.
+2015-12-13 17:17:27,159 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'e:\cbackup\Users\Big Dave\Documents\My Pictures'.
+2015-12-13 17:17:27,159 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'e:\cbackup\Users\Big Dave\Documents\My Pictures'.
+2015-12-13 17:17:27,192 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'e:\cbackup\Users\Big Dave\Documents\My Videos'.
+2015-12-13 17:17:27,192 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'e:\cbackup\Users\Big Dave\Documents\My Videos'.
+2015-12-13 17:17:39,703 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\System Volume Information' is denied.
+2015-12-13 17:17:40,162 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Complete
+2015-12-13 17:18:53,367 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Adding Scanning path: c:\temp
+2015-12-13 17:18:53,367 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Scan
+2015-12-13 17:18:53,387 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Complete
+2015-12-13 17:19:09,033 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Adding Scanning path: c:\temp
+2015-12-13 17:19:09,033 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Adding Scanning path: e:\
+2015-12-13 17:19:09,033 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Scan
+2015-12-13 17:19:09,143 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-18' is denied.
+2015-12-13 17:19:09,178 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-1301490750-3184388209-3121372309-106390' is denied.
+2015-12-13 17:19:09,214 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-1514951835-2046003855-1839773499-1001' is denied.
+2015-12-13 17:19:09,250 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-1705063060-4213844116-2729571231-1001' is denied.
+2015-12-13 17:19:09,286 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-1755390995-100713114-1414739251-1001' is denied.
+2015-12-13 17:19:09,323 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-1755390995-100713114-1414739251-1002' is denied.
+2015-12-13 17:19:09,360 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-2078033408-3037966540-1629587061-1001' is denied.
+2015-12-13 17:19:09,391 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-2783274068-1461838048-1182606293-1001' is denied.
+2015-12-13 17:19:09,426 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-2995380752-1956577068-1271320645-1001' is denied.
+2015-12-13 17:19:09,461 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-30727560-1371454713-2093655339-1000' is denied.
+2015-12-13 17:19:09,496 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-910736326-198359723-1436694673-1001' is denied.
+2015-12-13 17:19:13,718 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'e:\cbackup\Users\Big Dave\Documents\My Music'.
+2015-12-13 17:19:13,724 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'e:\cbackup\Users\Big Dave\Documents\My Music'.
+2015-12-13 17:19:13,755 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'e:\cbackup\Users\Big Dave\Documents\My Pictures'.
+2015-12-13 17:19:13,755 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'e:\cbackup\Users\Big Dave\Documents\My Pictures'.
+2015-12-13 17:19:13,788 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'e:\cbackup\Users\Big Dave\Documents\My Videos'.
+2015-12-13 17:19:13,788 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'e:\cbackup\Users\Big Dave\Documents\My Videos'.
+2015-12-13 17:19:26,637 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\System Volume Information' is denied.
+2015-12-13 17:19:27,109 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Complete
+2015-12-13 17:20:07,300 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Adding Scanning path: e:\
+2015-12-13 17:20:07,300 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Scan
+2015-12-13 17:20:07,337 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-18' is denied.
+2015-12-13 17:20:07,371 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-1301490750-3184388209-3121372309-106390' is denied.
+2015-12-13 17:20:07,407 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-1514951835-2046003855-1839773499-1001' is denied.
+2015-12-13 17:20:07,444 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-1705063060-4213844116-2729571231-1001' is denied.
+2015-12-13 17:20:07,479 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-1755390995-100713114-1414739251-1001' is denied.
+2015-12-13 17:20:07,513 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-1755390995-100713114-1414739251-1002' is denied.
+2015-12-13 17:20:07,551 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-2078033408-3037966540-1629587061-1001' is denied.
+2015-12-13 17:20:07,589 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-2783274068-1461838048-1182606293-1001' is denied.
+2015-12-13 17:20:07,616 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-2995380752-1956577068-1271320645-1001' is denied.
+2015-12-13 17:20:07,678 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-30727560-1371454713-2093655339-1000' is denied.
+2015-12-13 17:20:07,716 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-910736326-198359723-1436694673-1001' is denied.
+2015-12-13 17:20:11,777 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'e:\cbackup\Users\Big Dave\Documents\My Music'.
+2015-12-13 17:20:11,777 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'e:\cbackup\Users\Big Dave\Documents\My Music'.
+2015-12-13 17:20:11,807 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'e:\cbackup\Users\Big Dave\Documents\My Pictures'.
+2015-12-13 17:20:11,807 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'e:\cbackup\Users\Big Dave\Documents\My Pictures'.
+2015-12-13 17:20:11,846 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'e:\cbackup\Users\Big Dave\Documents\My Videos'.
+2015-12-13 17:20:11,846 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'e:\cbackup\Users\Big Dave\Documents\My Videos'.
+2015-12-13 17:20:24,258 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\System Volume Information' is denied.
+2015-12-13 17:20:24,726 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Complete
+2015-12-13 17:23:13,878 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Adding Scanning path: e:\
+2015-12-13 17:23:13,888 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Scan
+2015-12-13 17:23:13,972 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-18' is denied.
+2015-12-13 17:23:14,003 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-1301490750-3184388209-3121372309-106390' is denied.
+2015-12-13 17:23:14,038 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-1514951835-2046003855-1839773499-1001' is denied.
+2015-12-13 17:23:14,078 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-1705063060-4213844116-2729571231-1001' is denied.
+2015-12-13 17:23:14,105 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-1755390995-100713114-1414739251-1001' is denied.
+2015-12-13 17:23:14,150 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-1755390995-100713114-1414739251-1002' is denied.
+2015-12-13 17:23:14,185 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-2078033408-3037966540-1629587061-1001' is denied.
+2015-12-13 17:23:14,220 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-2783274068-1461838048-1182606293-1001' is denied.
+2015-12-13 17:23:14,251 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-2995380752-1956577068-1271320645-1001' is denied.
+2015-12-13 17:23:14,286 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-30727560-1371454713-2093655339-1000' is denied.
+2015-12-13 17:23:14,325 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-910736326-198359723-1436694673-1001' is denied.
+2015-12-13 17:23:18,361 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'e:\cbackup\Users\Big Dave\Documents\My Music'.
+2015-12-13 17:23:18,373 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'e:\cbackup\Users\Big Dave\Documents\My Music'.
+2015-12-13 17:23:18,389 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'e:\cbackup\Users\Big Dave\Documents\My Pictures'.
+2015-12-13 17:23:18,404 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'e:\cbackup\Users\Big Dave\Documents\My Pictures'.
+2015-12-13 17:23:18,440 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'e:\cbackup\Users\Big Dave\Documents\My Videos'.
+2015-12-13 17:23:18,440 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'e:\cbackup\Users\Big Dave\Documents\My Videos'.
+2015-12-13 17:23:30,972 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\System Volume Information' is denied.
+2015-12-13 17:23:31,443 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Complete
+2015-12-13 17:25:54,496 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Adding Scanning path: c:\
+2015-12-13 17:25:54,512 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Scan
+2015-12-13 17:25:54,527 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\$Recycle.Bin\S-1-5-18' is denied.
+2015-12-13 17:25:54,527 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\$Recycle.Bin\S-1-5-21-1514951835-2046003855-1839773499-1001' is denied.
+2015-12-13 17:25:54,527 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\$Recycle.Bin\S-1-5-21-1705063060-4213844116-2729571231-1001' is denied.
+2015-12-13 17:25:54,527 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\$Recycle.Bin\S-1-5-21-1705063060-4213844116-2729571231-1003' is denied.
+2015-12-13 17:25:54,827 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\$Recycle.Bin\S-1-5-21-910736326-198359723-1436694673-1000' is denied.
+2015-12-13 17:25:54,827 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\$Recycle.Bin\S-1-5-21-910736326-198359723-1436694673-1001' is denied.
+2015-12-13 17:25:55,567 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Config.Msi' is denied.
+2015-12-13 17:25:55,567 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Documents and Settings' is denied.
+2015-12-13 17:25:55,567 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\inetpub\history' is denied.
+2015-12-13 17:25:55,567 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\inetpub\logs' is denied.
+2015-12-13 17:25:55,567 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\inetpub\temp\appPools' is denied.
+2015-12-13 17:25:57,015 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Program Files\WindowsApps' is denied.
+2015-12-13 17:25:59,985 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Program Files (x86)\Google\CrashReports' is denied.
+2015-12-13 17:26:21,204 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Application Data' is denied.
+2015-12-13 17:26:21,220 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Desktop' is denied.
+2015-12-13 17:26:21,220 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Documents' is denied.
+2015-12-13 17:26:21,251 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Crypto\PCPKSP\WindowsAIK' is denied.
+2015-12-13 17:26:21,288 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Diagnosis' is denied.
+2015-12-13 17:26:21,451 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Network\Downloader' is denied.
+2015-12-13 17:26:21,467 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Provisioning' is denied.
+2015-12-13 17:26:21,467 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Search\Data' is denied.
+2015-12-13 17:26:21,520 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\SmsRouter' is denied.
+2015-12-13 17:26:21,551 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\AppRepository' is denied.
+2015-12-13 17:26:21,567 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\Hyper-V' is denied.
+2015-12-13 17:26:21,567 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\LfSvc' is denied.
+2015-12-13 17:26:21,567 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\Power Efficiency Diagnostics' is denied.
+2015-12-13 17:26:21,593 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\SystemData' is denied.
+2015-12-13 17:26:21,603 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_Explorer.EXE_687839159fe8a0ad2eee4193b216858bb7feec73_43dcc54e_1bd548eb' is denied.
+2015-12-13 17:26:21,603 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_IAStorDataMgrSvc_92149acc7441119c649abcf3b37089efacd3162_98f670a2_06a32ba5' is denied.
+2015-12-13 17:26:21,603 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_IAStorDataMgrSvc_92149acc7441119c649abcf3b37089efacd3162_98f670a2_07b6ef28' is denied.
+2015-12-13 17:26:21,603 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_IAStorDataMgrSvc_92149acc7441119c649abcf3b37089efacd3162_98f670a2_0a02c50b' is denied.
+2015-12-13 17:26:21,603 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_IAStorDataMgrSvc_92149acc7441119c649abcf3b37089efacd3162_98f670a2_0b96f727' is denied.
+2015-12-13 17:26:21,603 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_IAStorDataMgrSvc_92149acc7441119c649abcf3b37089efacd3162_98f670a2_0e8ef1d8' is denied.
+2015-12-13 17:26:21,603 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_IAStorDataMgrSvc_92149acc7441119c649abcf3b37089efacd3162_98f670a2_112b4094' is denied.
+2015-12-13 17:26:21,603 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_IAStorDataMgrSvc_92149acc7441119c649abcf3b37089efacd3162_98f670a2_113313a8' is denied.
+2015-12-13 17:26:21,603 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_IAStorDataMgrSvc_92149acc7441119c649abcf3b37089efacd3162_98f670a2_11682007' is denied.
+2015-12-13 17:26:21,603 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_IAStorDataMgrSvc_92149acc7441119c649abcf3b37089efacd3162_98f670a2_13a76a92' is denied.
+2015-12-13 17:26:21,603 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_IAStorDataMgrSvc_92149acc7441119c649abcf3b37089efacd3162_98f670a2_14d76f45' is denied.
+2015-12-13 17:26:21,603 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_IAStorDataMgrSvc_92149acc7441119c649abcf3b37089efacd3162_98f670a2_169b02ff' is denied.
+2015-12-13 17:26:21,603 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_IAStorDataMgrSvc_92149acc7441119c649abcf3b37089efacd3162_98f670a2_17259e54' is denied.
+2015-12-13 17:26:21,603 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_IAStorDataMgrSvc_92149acc7441119c649abcf3b37089efacd3162_98f670a2_17c3a895' is denied.
+2015-12-13 17:26:21,603 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_IAStorDataMgrSvc_92149acc7441119c649abcf3b37089efacd3162_98f670a2_1a0366aa' is denied.
+2015-12-13 17:26:21,603 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_IAStorDataMgrSvc_92149acc7441119c649abcf3b37089efacd3162_98f670a2_1a72e9ba' is denied.
+2015-12-13 17:26:21,603 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_IAStorDataMgrSvc_92149acc7441119c649abcf3b37089efacd3162_98f670a2_1a9f0d20' is denied.
+2015-12-13 17:26:21,603 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_IAStorDataMgrSvc_92149acc7441119c649abcf3b37089efacd3162_98f670a2_1b37221f' is denied.
+2015-12-13 17:26:21,603 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_IAStorDataMgrSvc_92149acc7441119c649abcf3b37089efacd3162_98f670a2_1bbb3895' is denied.
+2015-12-13 17:26:21,603 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_IAStorDataMgrSvc_92149acc7441119c649abcf3b37089efacd3162_98f670a2_1d86c5e6' is denied.
+2015-12-13 17:26:21,603 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_IAStorDataMgrSvc_92149acc7441119c649abcf3b37089efacd3162_98f670a2_1df39193' is denied.
+2015-12-13 17:26:21,603 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_IAStorDataMgrSvc_92149acc7441119c649abcf3b37089efacd3162_98f670a2_1e13b084' is denied.
+2015-12-13 17:26:21,603 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_IAStorDataMgrSvc_92149acc7441119c649abcf3b37089efacd3162_98f670a2_1f926d02' is denied.
+2015-12-13 17:26:21,603 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_IAStorDataMgrSvc_92149acc7441119c649abcf3b37089efacd3162_98f670a2_204f1f02' is denied.
+2015-12-13 17:26:21,603 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_IAStorDataMgrSvc_92149acc7441119c649abcf3b37089efacd3162_98f670a2_217fa866' is denied.
+2015-12-13 17:26:21,603 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_IAStorDataMgrSvc_92149acc7441119c649abcf3b37089efacd3162_98f670a2_23cb5d92' is denied.
+2015-12-13 17:26:21,603 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_IAStorDataMgrSvc_92149acc7441119c649abcf3b37089efacd3162_98f670a2_2557de4b' is denied.
+2015-12-13 17:26:21,618 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_Microsoft.ZuneVi_70ef1269c7fbf73ba3340fa1dfa4ebabd2e9faf_11cd3bc8_2427f4a0' is denied.
+2015-12-13 17:26:21,618 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_MsiExec.exe_727b112015be3c132cfa93dfaec777f9dc65fbf6_8ec60911_12ee3a2b' is denied.
+2015-12-13 17:26:21,618 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_Windows Installe_28354a60e553554c9ae0c8ffc08974d45f5de353_8ec60911_35729734' is denied.
+2015-12-13 17:26:21,618 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_Windows Installe_cfc56b36ca94cc45fd049168f5a82cbeebb3b8_8ec60911_2a50aeb7' is denied.
+2015-12-13 17:26:21,618 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\Critical_10.0.10586.0_1_58b6cec169647e71609bf1745452c849866c6e89_00000000_172598f5' is denied.
+2015-12-13 17:26:21,618 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\Critical_ScriptedSandbox6_4eadf8905fb02d1d89f951d46e777d412442ca1d_00000000_03b97fc4' is denied.
+2015-12-13 17:26:21,618 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\Critical_ScriptedSandbox6_4eadf8905fb02d1d89f951d46e777d412442ca1d_00000000_27b84802' is denied.
+2015-12-13 17:26:21,618 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\Critical_ScriptedSandbox6_e05ed07fc7734f5cbdd804f7661c5d4c4ccdf6_00000000_16af3add' is denied.
+2015-12-13 17:26:21,618 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\Critical_ScriptedSandbox6_f22ee499e8aff47bb6b28958d9e3a73f585aa0_00000000_1286da0e' is denied.
+2015-12-13 17:26:21,618 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\Critical_ScriptedSandbox6_fbb9244d3580c189611ca550fc4cdbc2605e702_00000000_146a8e41' is denied.
+2015-12-13 17:26:21,618 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\Kernel_141_10195d39606a7631e083defb489633a24f9e262b_00000000_cab_2dd687ac' is denied.
+2015-12-13 17:26:21,618 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\Kernel_141_1fbb8d1e4819b534b8af4147e043ec99c19ec7a_00000000_cab_32cef7ca' is denied.
+2015-12-13 17:26:21,618 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\Kernel_141_21429c94c95e3ac5f8f5fec6d517a689429a251_00000000_cab_1925a0f1' is denied.
+2015-12-13 17:26:21,618 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\Kernel_141_3779ec9ade3d026e3beddecb33543958912d9b_00000000_cab_0ac56ee6' is denied.
+2015-12-13 17:26:21,618 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\Kernel_141_474f16b6765168ea23a81badce7d1c6d1d64b_00000000_cab_1286d80a' is denied.
+2015-12-13 17:26:21,618 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\Kernel_141_504a893a927e7916d33fd5aa2eff89ad6513ab4_00000000_cab_117ae557' is denied.
+2015-12-13 17:26:21,618 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\Kernel_141_504a893a927e7916d33fd5aa2eff89ad6513ab4_00000000_cab_18ac18f3' is denied.
+2015-12-13 17:26:21,618 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\Kernel_141_5f552d6dc3ebf5a3bf2678a6fe72703110e7edeb_00000000_cab_2c7dbfa2' is denied.
+2015-12-13 17:26:21,618 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\Kernel_141_5fd9a813c45632a48aca4ab0b45bfbffb7a71_00000000_cab_2897296c' is denied.
+2015-12-13 17:26:21,618 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\Kernel_141_71815e76cb63a2d9daf33d81eca6ac45c9970_00000000_cab_23cb6daf' is denied.
+2015-12-13 17:26:21,618 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\Kernel_141_734cdf453a724cf1d34f909255459562cdb1b1e_00000000_cab_327650fe' is denied.
+2015-12-13 17:26:21,618 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\Kernel_141_804a83ce28b1294a6d446d1fd3a584cbbeb74c_00000000_cab_289712f6' is denied.
+2015-12-13 17:26:21,618 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\Kernel_141_84ee96681d365f17a5b299d8c84d16f98db25ac5_00000000_cab_2664a830' is denied.
+2015-12-13 17:26:21,618 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\Kernel_141_86a5c4aa395848f846b11332cb186ed080495b_00000000_cab_12a6bb11' is denied.
+2015-12-13 17:26:21,618 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\Kernel_141_89cbd5c6d345852125156623d6ce484e5b321950_00000000_cab_117ad644' is denied.
+2015-12-13 17:26:21,618 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\Kernel_141_8be9efdbd9d7b89f87c16adcf638756131b7eba_00000000_cab_20b18610' is denied.
+2015-12-13 17:26:21,618 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\Kernel_141_97e13f828982f29e3cbba99c7a859b3b67d5e_00000000_cab_226c9112' is denied.
+2015-12-13 17:26:21,618 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\Kernel_141_999f753371a9f9d132eb4657ad612fbbcb17c86_00000000_cab_28971c6c' is denied.
+2015-12-13 17:26:21,618 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\Kernel_141_99d8d118e02e364c415b97632da5066511b3d1b_00000000_cab_1c9d06cb' is denied.
+2015-12-13 17:26:21,618 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\Kernel_141_9a2a1b6e7bd2cf6997aeb3f8eb987f24ab01c_00000000_cab_2534cab6' is denied.
+2015-12-13 17:26:21,618 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\Kernel_141_a3801f69d9e8f28ae5f8cf93a0ddc26659891fe6_00000000_cab_29793cc8' is denied.
+2015-12-13 17:26:21,618 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\Kernel_141_b6a613e699dc0812894aadf957d7169671d7582_00000000_cab_22fd460b' is denied.
+2015-12-13 17:26:21,618 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\Kernel_141_bdac23e7a84d64f582df050c1958a843729dfa9_00000000_cab_32ceead9' is denied.
+2015-12-13 17:26:21,634 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\Kernel_141_ca3662068cf53d2e694c9032288dcdfd46f84_00000000_cab_1b5019a6' is denied.
+2015-12-13 17:26:21,634 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\Kernel_141_e382bbf171f8d6bd1083f6a73efc4abfefc5f0d0_00000000_cab_12f741c7' is denied.
+2015-12-13 17:26:21,634 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\Kernel_141_e7d47ddd2c764b68b1c67fb3571b67995e3613f_00000000_cab_08b002ee' is denied.
+2015-12-13 17:26:21,634 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\Kernel_141_ef8412197d7497f3c4a757773d87ad29d54f3bcc_00000000_cab_01681f55' is denied.
+2015-12-13 17:26:21,634 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\Kernel_141_f2fc636677b78dd37dafd0e564270a3cde312cb_00000000_cab_16f65087' is denied.
+2015-12-13 17:26:21,634 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\Kernel_141_f4ccfcc9e2daa7ce91397e42ddd762639b4562_00000000_cab_3642a243' is denied.
+2015-12-13 17:26:21,634 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\Kernel_141_f8ff8fe06e79f16c2eb609bcbd7bb655bb7b431_00000000_cab_1544d170' is denied.
+2015-12-13 17:26:21,634 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\Kernel_15c_687cc188a6ed868da7c79bf0605fd6524490b338_00000000_cab_069c6e11' is denied.
+2015-12-13 17:26:21,634 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_10.0.10586.0_1ba96337489a6bf31d6dfcd924d1915fd52c963c_00000000_1a7c911e' is denied.
+2015-12-13 17:26:21,634 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_10.0.10586.0_3197b317dff996212152ed8e53d848555ffec1f2_00000000_0e98e30d' is denied.
+2015-12-13 17:26:21,634 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_10.0.10586.0_56bea18f8ff57e769e896b0e7cce0a5953c2520_00000000_17259da8' is denied.
+2015-12-13 17:26:21,634 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_10.0.10586.0_79c7bf5271e9237d8b5519a874af2f26f3c2736_00000000_17259a6c' is denied.
+2015-12-13 17:26:21,634 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_10.0.10586.17_c17dacfe4765a8389028fae32a652842b1d88190_00000000_1f927119' is denied.
+2015-12-13 17:26:21,634 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_5_6dcb948b7641d9caab25aa3f6397a527a74822c2_00000000_0133256b' is denied.
+2015-12-13 17:26:21,650 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_devenv_f7bba0843afcebd07182b046427d767b37be7354_00000000_cab_2427f9d0' is denied.
+2015-12-13 17:26:21,650 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_Microsoft Window_fc94b35f71b9a1a81fe49cb1b5f7f4372f1a4ea_00000000_18e07f90' is denied.
+2015-12-13 17:26:21,650 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_x64_18415b22769fbe5d737914bf24394f565f22ee8_00000000_21fe23be' is denied.
+2015-12-13 17:26:21,650 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_x64_31ef77ba13bf85aece17bfe71259351cd21bd_00000000_21fe26ac' is denied.
+2015-12-13 17:26:21,650 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_x64_37c553440f84664472a7f43bbb25e3f6af5e368_00000000_21fe27f4' is denied.
+2015-12-13 17:26:21,650 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_x64_49a18723daef681e249d80a5ac8656b5437ad1b5_00000000_172591c1' is denied.
+2015-12-13 17:26:21,650 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_x64_4cb87d2fe6bea55bd2f59da4c79154bf2b5d2d_00000000_21fe21ca' is denied.
+2015-12-13 17:26:21,650 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_x64_50bb58890f7566e189d716968047bc98c7f5d_00000000_14cd8d6f' is denied.
+2015-12-13 17:26:21,650 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_x64_54346119a198888bacd0f8468ccd1282e1d87aef_00000000_0e98e213' is denied.
+2015-12-13 17:26:21,650 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_x64_674b601e4bc6e943aab0781795a6f46547d35c1_00000000_21fe2796' is denied.
+2015-12-13 17:26:21,650 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_x64_7b3362e10b5b4a8bc39226b57514a8fba7f4e6_00000000_14cd8ddc' is denied.
+2015-12-13 17:26:21,650 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_x64_833545bd7b9072f31fde44271b36ca884bee1ea2_00000000_0e98e0f9' is denied.
+2015-12-13 17:26:21,650 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_x64_939a4cb6b76eb8486a025a6dbc4be8fc2b0a122_00000000_21fe26fa' is denied.
+2015-12-13 17:26:21,650 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_x64_9d9217207c705b8e896dc548705c2ea8ccd7a269_00000000_21fe25b2' is denied.
+2015-12-13 17:26:21,650 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_x64_b2bb77e75d5cd5e4f5a6d8c8febfe8f75bf634_00000000_21fe2748' is denied.
+2015-12-13 17:26:21,650 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_x64_c798a8efae4144ccffb3dc9cba9c49ff42c97e9_00000000_21fe2861' is denied.
+2015-12-13 17:26:21,665 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_x64_cdf97abe44b1672d79b47485704cb91abdc865e_00000000_21fe263e' is denied.
+2015-12-13 17:26:21,665 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_x64_d94b302368dfa284c3d42054df2476d0b65c8be9_00000000_21fe1ff5' is denied.
+2015-12-13 17:26:21,665 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_x64_f14e75d7287b5818554dc1e6a84399cd9b13d8a3_00000000_225dd5ee' is denied.
+2015-12-13 17:26:21,665 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows\wfp' is denied.
+2015-12-13 17:26:21,665 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows Defender' is denied.
+2015-12-13 17:26:21,665 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft\Windows NT\MSFax' is denied.
+2015-12-13 17:26:21,683 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Microsoft DNX\BreadcrumbStore' is denied.
+2015-12-13 17:26:22,605 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Start Menu' is denied.
+2015-12-13 17:26:22,620 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\Templates' is denied.
+2015-12-13 17:26:22,620 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\ProgramData\USOPrivate' is denied.
+2015-12-13 17:26:22,636 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Recovery' is denied.
+2015-12-13 17:26:23,352 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\System Volume Information' is denied.
+2015-12-13 17:26:23,368 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\.NET v4.5' is denied.
+2015-12-13 17:26:23,368 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\.NET v4.5 Classic' is denied.
+2015-12-13 17:26:23,368 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Application Data' is denied.
+2015-12-13 17:26:23,368 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Desktop' is denied.
+2015-12-13 17:26:23,368 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Documents' is denied.
+2015-12-13 17:26:23,390 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Crypto\PCPKSP\WindowsAIK' is denied.
+2015-12-13 17:26:23,437 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Diagnosis' is denied.
+2015-12-13 17:26:23,491 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Network\Downloader' is denied.
+2015-12-13 17:26:23,491 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Provisioning' is denied.
+2015-12-13 17:26:23,491 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Search\Data' is denied.
+2015-12-13 17:26:23,491 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\SmsRouter' is denied.
+2015-12-13 17:26:23,522 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\AppRepository' is denied.
+2015-12-13 17:26:23,537 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\Hyper-V' is denied.
+2015-12-13 17:26:23,537 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\LfSvc' is denied.
+2015-12-13 17:26:23,537 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\Power Efficiency Diagnostics' is denied.
+2015-12-13 17:26:23,553 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\SystemData' is denied.
+2015-12-13 17:26:23,569 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\AppCrash_Explorer.EXE_687839159fe8a0ad2eee4193b216858bb7feec73_43dcc54e_1bd548eb' is denied.
+2015-12-13 17:26:23,569 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\AppCrash_IAStorDataMgrSvc_92149acc7441119c649abcf3b37089efacd3162_98f670a2_06a32ba5' is denied.
+2015-12-13 17:26:23,569 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\AppCrash_IAStorDataMgrSvc_92149acc7441119c649abcf3b37089efacd3162_98f670a2_07b6ef28' is denied.
+2015-12-13 17:26:23,569 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\AppCrash_IAStorDataMgrSvc_92149acc7441119c649abcf3b37089efacd3162_98f670a2_0a02c50b' is denied.
+2015-12-13 17:26:23,569 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\AppCrash_IAStorDataMgrSvc_92149acc7441119c649abcf3b37089efacd3162_98f670a2_0b96f727' is denied.
+2015-12-13 17:26:23,569 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\AppCrash_IAStorDataMgrSvc_92149acc7441119c649abcf3b37089efacd3162_98f670a2_0e8ef1d8' is denied.
+2015-12-13 17:26:23,569 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\AppCrash_IAStorDataMgrSvc_92149acc7441119c649abcf3b37089efacd3162_98f670a2_112b4094' is denied.
+2015-12-13 17:26:23,569 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\AppCrash_IAStorDataMgrSvc_92149acc7441119c649abcf3b37089efacd3162_98f670a2_113313a8' is denied.
+2015-12-13 17:26:23,569 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\AppCrash_IAStorDataMgrSvc_92149acc7441119c649abcf3b37089efacd3162_98f670a2_11682007' is denied.
+2015-12-13 17:26:23,569 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\AppCrash_IAStorDataMgrSvc_92149acc7441119c649abcf3b37089efacd3162_98f670a2_13a76a92' is denied.
+2015-12-13 17:26:23,569 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\AppCrash_IAStorDataMgrSvc_92149acc7441119c649abcf3b37089efacd3162_98f670a2_14d76f45' is denied.
+2015-12-13 17:26:23,569 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\AppCrash_IAStorDataMgrSvc_92149acc7441119c649abcf3b37089efacd3162_98f670a2_169b02ff' is denied.
+2015-12-13 17:26:23,569 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\AppCrash_IAStorDataMgrSvc_92149acc7441119c649abcf3b37089efacd3162_98f670a2_17259e54' is denied.
+2015-12-13 17:26:23,569 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\AppCrash_IAStorDataMgrSvc_92149acc7441119c649abcf3b37089efacd3162_98f670a2_17c3a895' is denied.
+2015-12-13 17:26:23,569 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\AppCrash_IAStorDataMgrSvc_92149acc7441119c649abcf3b37089efacd3162_98f670a2_1a0366aa' is denied.
+2015-12-13 17:26:23,569 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\AppCrash_IAStorDataMgrSvc_92149acc7441119c649abcf3b37089efacd3162_98f670a2_1a72e9ba' is denied.
+2015-12-13 17:26:23,569 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\AppCrash_IAStorDataMgrSvc_92149acc7441119c649abcf3b37089efacd3162_98f670a2_1a9f0d20' is denied.
+2015-12-13 17:26:23,569 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\AppCrash_IAStorDataMgrSvc_92149acc7441119c649abcf3b37089efacd3162_98f670a2_1b37221f' is denied.
+2015-12-13 17:26:23,569 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\AppCrash_IAStorDataMgrSvc_92149acc7441119c649abcf3b37089efacd3162_98f670a2_1bbb3895' is denied.
+2015-12-13 17:26:23,569 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\AppCrash_IAStorDataMgrSvc_92149acc7441119c649abcf3b37089efacd3162_98f670a2_1d86c5e6' is denied.
+2015-12-13 17:26:23,569 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\AppCrash_IAStorDataMgrSvc_92149acc7441119c649abcf3b37089efacd3162_98f670a2_1df39193' is denied.
+2015-12-13 17:26:23,569 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\AppCrash_IAStorDataMgrSvc_92149acc7441119c649abcf3b37089efacd3162_98f670a2_1e13b084' is denied.
+2015-12-13 17:26:23,569 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\AppCrash_IAStorDataMgrSvc_92149acc7441119c649abcf3b37089efacd3162_98f670a2_1f926d02' is denied.
+2015-12-13 17:26:23,569 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\AppCrash_IAStorDataMgrSvc_92149acc7441119c649abcf3b37089efacd3162_98f670a2_204f1f02' is denied.
+2015-12-13 17:26:23,569 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\AppCrash_IAStorDataMgrSvc_92149acc7441119c649abcf3b37089efacd3162_98f670a2_217fa866' is denied.
+2015-12-13 17:26:23,569 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\AppCrash_IAStorDataMgrSvc_92149acc7441119c649abcf3b37089efacd3162_98f670a2_23cb5d92' is denied.
+2015-12-13 17:26:23,569 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\AppCrash_IAStorDataMgrSvc_92149acc7441119c649abcf3b37089efacd3162_98f670a2_2557de4b' is denied.
+2015-12-13 17:26:23,569 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\AppCrash_Microsoft.ZuneVi_70ef1269c7fbf73ba3340fa1dfa4ebabd2e9faf_11cd3bc8_2427f4a0' is denied.
+2015-12-13 17:26:23,586 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\AppCrash_MsiExec.exe_727b112015be3c132cfa93dfaec777f9dc65fbf6_8ec60911_12ee3a2b' is denied.
+2015-12-13 17:26:23,590 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\AppCrash_Windows Installe_28354a60e553554c9ae0c8ffc08974d45f5de353_8ec60911_35729734' is denied.
+2015-12-13 17:26:23,590 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\AppCrash_Windows Installe_cfc56b36ca94cc45fd049168f5a82cbeebb3b8_8ec60911_2a50aeb7' is denied.
+2015-12-13 17:26:23,591 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\Critical_10.0.10586.0_1_58b6cec169647e71609bf1745452c849866c6e89_00000000_172598f5' is denied.
+2015-12-13 17:26:23,591 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\Critical_ScriptedSandbox6_4eadf8905fb02d1d89f951d46e777d412442ca1d_00000000_03b97fc4' is denied.
+2015-12-13 17:26:23,591 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\Critical_ScriptedSandbox6_4eadf8905fb02d1d89f951d46e777d412442ca1d_00000000_27b84802' is denied.
+2015-12-13 17:26:23,591 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\Critical_ScriptedSandbox6_e05ed07fc7734f5cbdd804f7661c5d4c4ccdf6_00000000_16af3add' is denied.
+2015-12-13 17:26:23,591 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\Critical_ScriptedSandbox6_f22ee499e8aff47bb6b28958d9e3a73f585aa0_00000000_1286da0e' is denied.
+2015-12-13 17:26:23,591 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\Critical_ScriptedSandbox6_fbb9244d3580c189611ca550fc4cdbc2605e702_00000000_146a8e41' is denied.
+2015-12-13 17:26:23,591 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\Kernel_141_10195d39606a7631e083defb489633a24f9e262b_00000000_cab_2dd687ac' is denied.
+2015-12-13 17:26:23,591 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\Kernel_141_1fbb8d1e4819b534b8af4147e043ec99c19ec7a_00000000_cab_32cef7ca' is denied.
+2015-12-13 17:26:23,591 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\Kernel_141_21429c94c95e3ac5f8f5fec6d517a689429a251_00000000_cab_1925a0f1' is denied.
+2015-12-13 17:26:23,591 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\Kernel_141_3779ec9ade3d026e3beddecb33543958912d9b_00000000_cab_0ac56ee6' is denied.
+2015-12-13 17:26:23,591 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\Kernel_141_474f16b6765168ea23a81badce7d1c6d1d64b_00000000_cab_1286d80a' is denied.
+2015-12-13 17:26:23,591 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\Kernel_141_504a893a927e7916d33fd5aa2eff89ad6513ab4_00000000_cab_117ae557' is denied.
+2015-12-13 17:26:23,591 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\Kernel_141_504a893a927e7916d33fd5aa2eff89ad6513ab4_00000000_cab_18ac18f3' is denied.
+2015-12-13 17:26:23,596 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\Kernel_141_5f552d6dc3ebf5a3bf2678a6fe72703110e7edeb_00000000_cab_2c7dbfa2' is denied.
+2015-12-13 17:26:23,596 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\Kernel_141_5fd9a813c45632a48aca4ab0b45bfbffb7a71_00000000_cab_2897296c' is denied.
+2015-12-13 17:26:23,596 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\Kernel_141_71815e76cb63a2d9daf33d81eca6ac45c9970_00000000_cab_23cb6daf' is denied.
+2015-12-13 17:26:23,597 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\Kernel_141_734cdf453a724cf1d34f909255459562cdb1b1e_00000000_cab_327650fe' is denied.
+2015-12-13 17:26:23,597 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\Kernel_141_804a83ce28b1294a6d446d1fd3a584cbbeb74c_00000000_cab_289712f6' is denied.
+2015-12-13 17:26:23,597 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\Kernel_141_84ee96681d365f17a5b299d8c84d16f98db25ac5_00000000_cab_2664a830' is denied.
+2015-12-13 17:26:23,598 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\Kernel_141_86a5c4aa395848f846b11332cb186ed080495b_00000000_cab_12a6bb11' is denied.
+2015-12-13 17:26:23,599 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\Kernel_141_89cbd5c6d345852125156623d6ce484e5b321950_00000000_cab_117ad644' is denied.
+2015-12-13 17:26:23,599 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\Kernel_141_97e13f828982f29e3cbba99c7a859b3b67d5e_00000000_cab_226c9112' is denied.
+2015-12-13 17:26:23,599 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\Kernel_141_8be9efdbd9d7b89f87c16adcf638756131b7eba_00000000_cab_20b18610' is denied.
+2015-12-13 17:26:23,600 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\Kernel_141_999f753371a9f9d132eb4657ad612fbbcb17c86_00000000_cab_28971c6c' is denied.
+2015-12-13 17:26:23,600 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\Kernel_141_99d8d118e02e364c415b97632da5066511b3d1b_00000000_cab_1c9d06cb' is denied.
+2015-12-13 17:26:23,601 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\Kernel_141_9a2a1b6e7bd2cf6997aeb3f8eb987f24ab01c_00000000_cab_2534cab6' is denied.
+2015-12-13 17:26:23,601 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\Kernel_141_a3801f69d9e8f28ae5f8cf93a0ddc26659891fe6_00000000_cab_29793cc8' is denied.
+2015-12-13 17:26:23,601 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\Kernel_141_b6a613e699dc0812894aadf957d7169671d7582_00000000_cab_22fd460b' is denied.
+2015-12-13 17:26:23,602 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\Kernel_141_bdac23e7a84d64f582df050c1958a843729dfa9_00000000_cab_32ceead9' is denied.
+2015-12-13 17:26:23,602 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\Kernel_141_ca3662068cf53d2e694c9032288dcdfd46f84_00000000_cab_1b5019a6' is denied.
+2015-12-13 17:26:23,603 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\Kernel_141_e382bbf171f8d6bd1083f6a73efc4abfefc5f0d0_00000000_cab_12f741c7' is denied.
+2015-12-13 17:26:23,603 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\Kernel_141_e7d47ddd2c764b68b1c67fb3571b67995e3613f_00000000_cab_08b002ee' is denied.
+2015-12-13 17:26:23,603 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\Kernel_141_ef8412197d7497f3c4a757773d87ad29d54f3bcc_00000000_cab_01681f55' is denied.
+2015-12-13 17:26:23,604 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\Kernel_141_f2fc636677b78dd37dafd0e564270a3cde312cb_00000000_cab_16f65087' is denied.
+2015-12-13 17:26:23,604 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\Kernel_141_f4ccfcc9e2daa7ce91397e42ddd762639b4562_00000000_cab_3642a243' is denied.
+2015-12-13 17:26:23,604 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\Kernel_141_f8ff8fe06e79f16c2eb609bcbd7bb655bb7b431_00000000_cab_1544d170' is denied.
+2015-12-13 17:26:23,605 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\Kernel_15c_687cc188a6ed868da7c79bf0605fd6524490b338_00000000_cab_069c6e11' is denied.
+2015-12-13 17:26:23,605 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\NonCritical_10.0.10586.0_1ba96337489a6bf31d6dfcd924d1915fd52c963c_00000000_1a7c911e' is denied.
+2015-12-13 17:26:23,606 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\NonCritical_10.0.10586.0_3197b317dff996212152ed8e53d848555ffec1f2_00000000_0e98e30d' is denied.
+2015-12-13 17:26:23,606 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\NonCritical_10.0.10586.0_56bea18f8ff57e769e896b0e7cce0a5953c2520_00000000_17259da8' is denied.
+2015-12-13 17:26:23,606 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\NonCritical_10.0.10586.0_79c7bf5271e9237d8b5519a874af2f26f3c2736_00000000_17259a6c' is denied.
+2015-12-13 17:26:23,606 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\NonCritical_10.0.10586.17_c17dacfe4765a8389028fae32a652842b1d88190_00000000_1f927119' is denied.
+2015-12-13 17:26:23,606 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\NonCritical_5_6dcb948b7641d9caab25aa3f6397a527a74822c2_00000000_0133256b' is denied.
+2015-12-13 17:26:23,621 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\NonCritical_devenv_f7bba0843afcebd07182b046427d767b37be7354_00000000_cab_2427f9d0' is denied.
+2015-12-13 17:26:23,621 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\NonCritical_Microsoft Window_fc94b35f71b9a1a81fe49cb1b5f7f4372f1a4ea_00000000_18e07f90' is denied.
+2015-12-13 17:26:23,621 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\NonCritical_x64_18415b22769fbe5d737914bf24394f565f22ee8_00000000_21fe23be' is denied.
+2015-12-13 17:26:23,621 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\NonCritical_x64_31ef77ba13bf85aece17bfe71259351cd21bd_00000000_21fe26ac' is denied.
+2015-12-13 17:26:23,621 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\NonCritical_x64_37c553440f84664472a7f43bbb25e3f6af5e368_00000000_21fe27f4' is denied.
+2015-12-13 17:26:23,621 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\NonCritical_x64_49a18723daef681e249d80a5ac8656b5437ad1b5_00000000_172591c1' is denied.
+2015-12-13 17:26:23,621 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\NonCritical_x64_4cb87d2fe6bea55bd2f59da4c79154bf2b5d2d_00000000_21fe21ca' is denied.
+2015-12-13 17:26:23,621 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\NonCritical_x64_50bb58890f7566e189d716968047bc98c7f5d_00000000_14cd8d6f' is denied.
+2015-12-13 17:26:23,621 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\NonCritical_x64_54346119a198888bacd0f8468ccd1282e1d87aef_00000000_0e98e213' is denied.
+2015-12-13 17:26:23,621 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\NonCritical_x64_674b601e4bc6e943aab0781795a6f46547d35c1_00000000_21fe2796' is denied.
+2015-12-13 17:26:23,621 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\NonCritical_x64_7b3362e10b5b4a8bc39226b57514a8fba7f4e6_00000000_14cd8ddc' is denied.
+2015-12-13 17:26:23,621 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\NonCritical_x64_833545bd7b9072f31fde44271b36ca884bee1ea2_00000000_0e98e0f9' is denied.
+2015-12-13 17:26:23,621 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\NonCritical_x64_939a4cb6b76eb8486a025a6dbc4be8fc2b0a122_00000000_21fe26fa' is denied.
+2015-12-13 17:26:23,621 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\NonCritical_x64_9d9217207c705b8e896dc548705c2ea8ccd7a269_00000000_21fe25b2' is denied.
+2015-12-13 17:26:23,621 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\NonCritical_x64_b2bb77e75d5cd5e4f5a6d8c8febfe8f75bf634_00000000_21fe2748' is denied.
+2015-12-13 17:26:23,621 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\NonCritical_x64_c798a8efae4144ccffb3dc9cba9c49ff42c97e9_00000000_21fe2861' is denied.
+2015-12-13 17:26:23,621 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\NonCritical_x64_cdf97abe44b1672d79b47485704cb91abdc865e_00000000_21fe263e' is denied.
+2015-12-13 17:26:23,621 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\NonCritical_x64_d94b302368dfa284c3d42054df2476d0b65c8be9_00000000_21fe1ff5' is denied.
+2015-12-13 17:26:23,637 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\WER\ReportArchive\NonCritical_x64_f14e75d7287b5818554dc1e6a84399cd9b13d8a3_00000000_225dd5ee' is denied.
+2015-12-13 17:26:23,637 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows\wfp' is denied.
+2015-12-13 17:26:23,637 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows Defender' is denied.
+2015-12-13 17:26:23,637 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft\Windows NT\MSFax' is denied.
+2015-12-13 17:26:23,653 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Microsoft DNX\BreadcrumbStore' is denied.
+2015-12-13 17:26:24,292 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Start Menu' is denied.
+2015-12-13 17:26:24,292 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\Templates' is denied.
+2015-12-13 17:26:24,292 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\All Users\USOPrivate' is denied.
+2015-12-13 17:26:29,452 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\DaveB\AppData\Local\Application Data' is denied.
+2015-12-13 17:26:30,642 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\DaveB\AppData\Local\History' is denied.
+2015-12-13 17:26:35,699 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\DaveB\AppData\Local\Microsoft\Windows\INetCache\Content.IE5' is denied.
+2015-12-13 17:26:35,877 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\DaveB\AppData\Local\Microsoft\Windows\INetCache\Low\Content.IE5' is denied.
+2015-12-13 17:26:35,915 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\DaveB\AppData\Local\Microsoft\Windows\Temporary Internet Files' is denied.
+2015-12-13 17:26:37,402 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\DaveB\AppData\Local\Temporary Internet Files' is denied.
+2015-12-13 17:26:38,135 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\DaveB\Application Data' is denied.
+2015-12-13 17:26:38,135 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\DaveB\Cookies' is denied.
+2015-12-13 17:26:39,419 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\DaveB\Documents\My Music' is denied.
+2015-12-13 17:26:39,419 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\DaveB\Documents\My Pictures' is denied.
+2015-12-13 17:26:39,419 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\DaveB\Documents\My Videos' is denied.
+2015-12-13 17:26:40,905 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\DaveB\Local Settings' is denied.
+2015-12-13 17:26:40,905 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\DaveB\My Documents' is denied.
+2015-12-13 17:26:40,905 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\DaveB\NetHood' is denied.
+2015-12-13 17:26:40,936 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\DaveB\PrintHood' is denied.
+2015-12-13 17:26:40,936 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\DaveB\Recent' is denied.
+2015-12-13 17:26:40,936 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\DaveB\SendTo' is denied.
+2015-12-13 17:26:40,936 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\DaveB\Start Menu' is denied.
+2015-12-13 17:26:40,936 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\DaveB\Templates' is denied.
+2015-12-13 17:26:40,936 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\Default\AppData\Local\Application Data' is denied.
+2015-12-13 17:26:40,936 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\Default\AppData\Local\History' is denied.
+2015-12-13 17:26:40,936 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\Default\AppData\Local\Microsoft\Windows\Temporary Internet Files' is denied.
+2015-12-13 17:26:40,952 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\Default\AppData\Local\Temporary Internet Files' is denied.
+2015-12-13 17:26:40,952 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\Default\Application Data' is denied.
+2015-12-13 17:26:40,952 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\Default\Cookies' is denied.
+2015-12-13 17:26:40,952 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\Default\Documents\My Music' is denied.
+2015-12-13 17:26:40,952 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\Default\Documents\My Pictures' is denied.
+2015-12-13 17:26:40,952 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\Default\Documents\My Videos' is denied.
+2015-12-13 17:26:40,967 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\Default\Local Settings' is denied.
+2015-12-13 17:26:40,967 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\Default\My Documents' is denied.
+2015-12-13 17:26:40,967 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\Default\NetHood' is denied.
+2015-12-13 17:26:40,967 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\Default\PrintHood' is denied.
+2015-12-13 17:26:40,967 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\Default\Recent' is denied.
+2015-12-13 17:26:40,967 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\Default\SendTo' is denied.
+2015-12-13 17:26:40,967 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\Default\Start Menu' is denied.
+2015-12-13 17:26:40,967 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\Default\Templates' is denied.
+2015-12-13 17:26:40,967 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\Default User' is denied.
+2015-12-13 17:26:40,967 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\Default.migrated\AppData\Local\Microsoft\Windows\Temporary Internet Files' is denied.
+2015-12-13 17:26:40,967 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\Default.migrated\Documents\My Music' is denied.
+2015-12-13 17:26:40,967 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\Default.migrated\Documents\My Pictures' is denied.
+2015-12-13 17:26:40,967 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\Default.migrated\Documents\My Videos' is denied.
+2015-12-13 17:26:40,967 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\DefaultAppPool' is denied.
+2015-12-13 17:26:40,983 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\Public\Documents\My Music' is denied.
+2015-12-13 17:26:40,983 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\Public\Documents\My Pictures' is denied.
+2015-12-13 17:26:40,983 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\Public\Documents\My Videos' is denied.
+2015-12-13 17:26:40,983 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Users\RDV GRAPHICS SERVICE' is denied.
+2015-12-13 17:26:40,983 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Windows\appcompat\Programs' is denied.
+2015-12-13 17:26:43,107 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Windows\CSC' is denied.
+2015-12-13 17:26:43,223 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Windows\InfusedApps' is denied.
+2015-12-13 17:26:43,716 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Windows\LiveKernelReports' is denied.
+2015-12-13 17:26:43,720 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Windows\Logs\HomeGroup' is denied.
+2015-12-13 17:26:43,720 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Windows\Logs\SystemRestore' is denied.
+2015-12-13 17:26:43,720 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Windows\Logs\Telephony' is denied.
+2015-12-13 17:26:44,956 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Windows\ModemLogs' is denied.
+2015-12-13 17:26:45,010 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Windows\Prefetch' is denied.
+2015-12-13 17:26:45,025 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Windows\Resources\Themes\aero\VSCache' is denied.
+2015-12-13 17:26:45,025 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Windows\security\audit' is denied.
+2015-12-13 17:26:45,025 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Windows\security\cap' is denied.
+2015-12-13 17:26:45,025 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Windows\ServiceProfiles\LocalService' is denied.
+2015-12-13 17:26:45,025 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Windows\ServiceProfiles\NetworkService' is denied.
+2015-12-13 17:26:46,291 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Windows\System32\Com\dmp' is denied.
+2015-12-13 17:26:46,291 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Windows\System32\config' is denied.
+2015-12-13 17:26:46,291 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Windows\System32\Configuration' is denied.
+2015-12-13 17:26:46,915 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Windows\System32\inetsrv\Config' is denied.
+2015-12-13 17:26:46,915 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Windows\System32\LogFiles\Fax\Incoming' is denied.
+2015-12-13 17:26:46,915 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Windows\System32\LogFiles\Fax\Outgoing' is denied.
+2015-12-13 17:26:46,915 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Windows\System32\LogFiles\HTTPERR' is denied.
+2015-12-13 17:26:46,915 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Windows\System32\LogFiles\Firewall' is denied.
+2015-12-13 17:26:46,915 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Windows\System32\LogFiles\WMI\RtBackup' is denied.
+2015-12-13 17:26:46,930 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Windows\System32\MsDtc' is denied.
+2015-12-13 17:26:46,930 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Windows\System32\networklist' is denied.
+2015-12-13 17:26:46,930 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Windows\System32\sru' is denied.
+2015-12-13 17:26:46,930 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Windows\System32\Tasks' is denied.
+2015-12-13 17:26:47,115 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Windows\SysWOW64\Com\dmp' is denied.
+2015-12-13 17:26:47,115 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Windows\SysWOW64\config' is denied.
+2015-12-13 17:26:47,115 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Windows\SysWOW64\Configuration' is denied.
+2015-12-13 17:26:47,146 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Windows\SysWOW64\inetsrv\Config' is denied.
+2015-12-13 17:26:47,146 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Windows\SysWOW64\MsDtc' is denied.
+2015-12-13 17:26:47,146 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Windows\SysWOW64\networklist' is denied.
+2015-12-13 17:26:47,162 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Windows\SysWOW64\sru' is denied.
+2015-12-13 17:26:47,162 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'c:\Windows\SysWOW64\Tasks' is denied.
+2015-12-13 17:26:54,220 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Complete
+2015-12-13 17:59:44,532 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Adding Scanning path: c:\temp
+2015-12-13 17:59:44,548 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Scan
+2015-12-13 17:59:44,564 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Complete
+2015-12-13 19:11:17,206 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Adding Scanning path: c:\temp
+2015-12-13 19:11:17,222 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Scan
+2015-12-13 19:11:17,244 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Complete
+2015-12-14 05:46:19,846 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Adding Scanning path: c:\temp
+2015-12-14 05:46:19,846 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Scan
+2015-12-14 05:46:19,893 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Complete
+2015-12-14 05:46:30,567 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Adding Scanning path: c:\temp
+2015-12-14 05:46:30,567 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Adding Scanning path: e:\
+2015-12-14 05:46:30,567 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Scan
+2015-12-14 05:46:36,419 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-18' is denied.
+2015-12-14 05:46:36,472 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-1301490750-3184388209-3121372309-106390' is denied.
+2015-12-14 05:46:36,519 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-1514951835-2046003855-1839773499-1001' is denied.
+2015-12-14 05:46:36,588 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-1705063060-4213844116-2729571231-1001' is denied.
+2015-12-14 05:46:36,619 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-1755390995-100713114-1414739251-1001' is denied.
+2015-12-14 05:46:36,641 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-1755390995-100713114-1414739251-1002' is denied.
+2015-12-14 05:46:36,673 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-2078033408-3037966540-1629587061-1001' is denied.
+2015-12-14 05:46:36,719 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-2783274068-1461838048-1182606293-1001' is denied.
+2015-12-14 05:46:36,757 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-2995380752-1956577068-1271320645-1001' is denied.
+2015-12-14 05:46:36,788 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-30727560-1371454713-2093655339-1000' is denied.
+2015-12-14 05:46:36,842 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\$RECYCLE.BIN\S-1-5-21-910736326-198359723-1436694673-1001' is denied.
+2015-12-14 05:47:06,696 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'e:\cbackup\Users\Big Dave\Documents\My Music'.
+2015-12-14 05:47:06,696 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'e:\cbackup\Users\Big Dave\Documents\My Music'.
+2015-12-14 05:47:06,743 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'e:\cbackup\Users\Big Dave\Documents\My Pictures'.
+2015-12-14 05:47:06,743 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'e:\cbackup\Users\Big Dave\Documents\My Pictures'.
+2015-12-14 05:47:06,781 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'e:\cbackup\Users\Big Dave\Documents\My Videos'.
+2015-12-14 05:47:06,781 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'e:\cbackup\Users\Big Dave\Documents\My Videos'.
+2015-12-14 05:48:50,971 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'e:\System Volume Information' is denied.
+2015-12-14 05:48:54,939 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Complete
+2015-12-14 09:24:55,468 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Adding Scanning path: c:\temp
+2015-12-14 09:24:55,479 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Scan
+2015-12-14 09:24:55,557 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Complete
+2015-12-14 09:31:49,699 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Adding Scanning path: c:\temp
+2015-12-14 09:31:49,713 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Scan
+2015-12-14 09:31:49,774 INFO [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Starting Complete

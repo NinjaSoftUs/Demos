@@ -5,6 +5,9 @@
     font-size: 14px;
 }
 
+h3 {
+    color: #008b8b;
+}
 /* Wrapping element */
 /* Set some basic padding to keep content from hitting the edges */
 .body-content {
@@ -13,20 +16,25 @@
 }
 
 /* Set widths on the form inputs since otherwise they're 100% wide */
-input,
-select,
+
 textarea {
     max-width: 280px;
 }
 
-    input[type=text], input[type=password] {
+    /*input[type=text], input[type=password] {
         width: 150px;
-    }
+    }*/
 
-    input[type=submit] {
+    /*input[type=submit] {
         width: auto;
         margin-top: 10px;
-    }
+    }*/
+
+/*img*/
+img {
+    width: 50px;
+    height: 50px;
+}
 
 /* label */
 label {
@@ -65,4 +73,8 @@ label {
     display: block;
     margin-left: 60px;
     margin-top: -15px;
+}
+
+#BodyContent {
+    margin-top: 50px;
 }

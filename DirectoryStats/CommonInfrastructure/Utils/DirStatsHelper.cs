@@ -1,54 +1,66 @@
-﻿using System;
+﻿using log4net;
+using NinjaSoft.CommonInfrastructure.Models;
+using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
-using log4net;
-using NinjaSoft.CommonInfrastructure.Models;
 
 namespace NinjaSoft.CommonInfrastructure.Utils
 {
     public class DirStatsHelper : IDisposable
     {
         //Here is the once-per-class call to initialize the log object
-       private static readonly ILog _log = LogManager.GetLogger(typeof(DirStatsHelper).FullName);
+        private static readonly ILog _log = LogManager.GetLogger(typeof(DirStatsHelper).FullName);
 
+        private int _foolerCount;
+        private List<DirStatsSummery> _summary;
 
         #region Sequential Methods
 
-        public DirStatsSummery GetFolderInfos(DirectoryInfo[] directoryInfos)
+        /// <summary>
+        /// Gets the stats recursively for each direcotryInfo
+        /// Total Files
+        /// Total Folders
+        /// Total size of a all files
+        ///
+        /// </summary>
+        /// <param name="directoryInfos">The directory infos.</param>
+        /// <returns>DirStatsSummery.</returns>
+        public DirStatsSummery GetDirStats(DirectoryInfo[] directoryInfos)
         {
-            var stats = new DirStatsSummery();
-           
+            var stopWatch = new Stopwatch();
+            stopWatch.Start();
+            var dirStatsSummery = new DirStatsSummery();
+
             foreach (var directoryInfo in directoryInfos)
             {
-                GetFolderInfos(directoryInfo, stats);
+                GetDirStats(directoryInfo, dirStatsSummery);
             }
-         
-            return stats;
+            stopWatch.Stop();
+            dirStatsSummery.ExecutionTime = stopWatch.Elapsed;
+            return dirStatsSummery;
         }
 
-
-        private void GetFolderInfos(DirectoryInfo directoryInfo, DirStatsSummery dirStatsSummery)
+        private void GetDirStats(DirectoryInfo directoryInfo, DirStatsSummery dirStatsSummery)
         {
             try
             {
                 _log.Debug($"Scanning Directory {directoryInfo.FullName}");
                 dirStatsSummery.TotalFolders += directoryInfo.GetDirectories().Length;
-             
+
                 var fileInfos = directoryInfo.GetFiles();
                 dirStatsSummery.TotalFiles += fileInfos.Count();
-            
+
                 foreach (var fileInfo in fileInfos)
                 {
                     dirStatsSummery.TotalBytes += (ulong)fileInfo.Length;
-                   
                 }
 
                 foreach (var directory in directoryInfo.GetDirectories())
                 {
-
-                    GetFolderInfos(directory, dirStatsSummery);
+                    GetDirStats(directory, dirStatsSummery);
                 }
             }
             catch (Exception e)
@@ -57,141 +69,96 @@ namespace NinjaSoft.CommonInfrastructure.Utils
                 _log.Error(e.Message);
                 _log.Debug(e.StackTrace);
             }
-
         }
 
-        #endregion
+        #endregion Sequential Methods
 
         #region Async Methods
 
-        public async Task<DirStatsSummery> GetFolderInfosAsync(DirectoryInfo[] directoryInfos)
+        /// <summary>
+        /// Gets the stats recursively and asynchronously for each direcotryInfo
+        /// Total Files
+        /// Total Folders
+        /// Total size of a all files
+        ///
+        /// </summary>
+        /// <param name="directoryInfos">The directory infos.</param>
+        /// <returns>DirStatsSummery.</returns>
+        public async Task<DirStatsSummery> GetDirStatsAsync(DirectoryInfo[] directoryInfos)
         {
-          return await GetFolderInfosAsync(directoryInfos, null);
-        }
-        public async Task<DirStatsSummery> GetFolderInfosAsync(DirectoryInfo[] directoryInfos,Action callBack)
-        {
+            var stopWatch = new Stopwatch();
+            stopWatch.Start();
 
-        
-                var tasks = new List<Task<DirStatsSummery>>();
+         
+            _summary = new List<DirStatsSummery>();
 
 
-
-                foreach (var directoryInfo in directoryInfos)
-                {
-                    GetFolderInfosAsync(directoryInfo, tasks, callBack);
-                }
-
-                Task.WaitAll(tasks.ToArray());
-
-
-                var fs = await BulildFolderStats(tasks);
-                
+            await Task.Factory.StartNew(() =>
+             {
+                 Parallel.ForEach(directoryInfos, directoryInfo =>
+                 {
+                     GetDirStatsRecursively(directoryInfo.GetDirectories());
+                 });
+             });
+         
+          
             
-            return fs;
 
+            var dirStatsSummery = new DirStatsSummery();
+            stopWatch.Stop();
+
+          
+
+            dirStatsSummery.ExecutionTime = stopWatch.Elapsed;
+            dirStatsSummery.TotalFiles = _summary.Select(x => x.TotalFiles).Sum();
+            dirStatsSummery.TotalBytes = _summary.Select(items => items.TotalBytes)
+                .Aggregate<ulong, ulong>(0, (current, bytTotal) => current + bytTotal);
+            dirStatsSummery.TotalFolders = _foolerCount;
+
+            return dirStatsSummery;
         }
 
-        private Task<DirStatsSummery> BulildFolderStats(List<Task<DirStatsSummery>> tasks)
+     
+
+
+        private void GetDirStatsRecursively(DirectoryInfo[] directories)
         {
-          
-        
-
-            var t = Task.Factory.StartNew<DirStatsSummery>(() =>
-            {
-
-                var fs = new DirStatsSummery();
-
-                foreach (var t2 in tasks)
-                {
-                    var result = t2.Result;
-                    fs.TotalBytes += result.TotalBytes;
-                    fs.HasErrors =  result.HasErrors;
-                    fs.TotalFiles += result.TotalFiles;
-                    fs.TotalFolders += result.TotalFolders;
-                }
-
-                return fs;
-            });
-
-            return t;
-        }
-
-        private void GetFolderInfosAsync(DirectoryInfo directoryInfo, List<Task<DirStatsSummery>> tasks,  Action callback)
-        {
-           _log.Debug($"Scanning Directory {directoryInfo.FullName}");
-          
-            Task<DirStatsSummery> t = Task.Factory.StartNew<DirStatsSummery>(() =>
+            Parallel.ForEach(directories, directoryInfo =>
             {
                 var lfs = new DirStatsSummery();
-
+                _foolerCount++;
                 try
                 {
                     var files = directoryInfo.GetFiles();
 
-                    lfs.TotalFiles = files.Count();
-                    lfs.TotalBytes = (ulong) files.Sum(x => x.Length);
-                    lfs.TotalFolders = directoryInfo.GetDirectories().Count();
-
+                    lfs.TotalFiles =+ files.Count();
+                    lfs.TotalBytes =+ (ulong)files.Sum(x => x.Length);
+                    lfs.TotalFolders =+ directoryInfo.GetDirectories().Count(); 
+                    _summary.Add(lfs);
+                    GetDirStatsRecursively(directoryInfo.GetDirectories());
                 }
                 catch (UnauthorizedAccessException e)
                 {
-                    lfs.HasErrors = true;
+                 
                     _log.Error(e.Message);
                     _log.Debug(e.StackTrace);
                 }
                 catch (Exception e)
                 {
-                    lfs.HasErrors = true;
+                 
                     _log.Error(e.Message);
                     _log.Debug(e.StackTrace);
                 }
                 
-
-                return lfs;
-             });
-
-
-            try
-            {
-                foreach (var directory in directoryInfo.GetDirectories())
-                {
-                    //invoke callback if on the parent thread if not null
-                    //if (callback != null)
-                    //{
-                    //    var statusUpdate = Task.Factory.StartNew(() => { });
-                    //    statusUpdate.ContinueWith(task =>
-                    //    {
-                    //        callback.Invoke();
-                    //    }, TaskScheduler.FromCurrentSynchronizationContext());
-                    //}
-                    GetFolderInfosAsync(directory, tasks, callback);
-                }
-            }
-            catch (UnauthorizedAccessException)
-            {
-                //NoOpp
-
-                //Squashing exception here as it should have been caught already from the 
-                //recursive task.
-
-            }
-
-            catch (Exception e)
-            {
-             _log.Error(e.Message);
-             _log.Debug(e.StackTrace);
-            }
-
-            tasks.Add(t);
-          
+            });
         }
 
-      
-        #endregion
+        #endregion Async Methods
 
         public void Dispose()
         {
-           
+            _summary = null;
+          
         }
     }
 }

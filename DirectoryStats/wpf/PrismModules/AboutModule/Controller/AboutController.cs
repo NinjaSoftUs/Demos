@@ -3,6 +3,7 @@ using Prism.Events;
 using Prism.Regions;
 using System.ComponentModel.Composition;
 using NinjaSoft.AboutModule.View;
+using NinjaSoft.AboutModule.ViewModels;
 using NinjaSoft.DirectoryStatusCore.enums;
 using NinjaSoft.DirectoryStatusCore.Events;
 using NinjaSoft.DirectoryStatusCore.Extenstions;
@@ -25,6 +26,8 @@ namespace NinjaSoft.AboutModule.Controller
                if (e == ViewType.AboutView)
                {
                    var view = _serviceLocator.GetInstance<AboutView>();
+                   var viewModel = _serviceLocator.GetInstance<AboutViewModel>();
+                   view.DataContext = viewModel;
                    _regionManager.Regions["MainRegion"].ShowView(view);
                }
            });

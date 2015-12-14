@@ -51,7 +51,6 @@ C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\wpf\DirectoryStats
 C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\wpf\DirectoryStats\bin\Debug\DirectoryStats.pdb
 C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\wpf\DirectoryStats\bin\Debug\log4net.dll
 C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\wpf\DirectoryStats\bin\Debug\Microsoft.Practices.ServiceLocation.dll
-C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\wpf\DirectoryStats\bin\Debug\NinjaSoft..CommonInfrastructure.dll
 C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\wpf\DirectoryStats\bin\Debug\NinjaSoft..HeaderModule.dll
 C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\wpf\DirectoryStats\bin\Debug\NinjaSoft.AboutModule.dll
 C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\wpf\DirectoryStats\bin\Debug\NinjaSoft.DirctoryStatsModule.dll
@@ -63,7 +62,6 @@ C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\wpf\DirectoryStats
 C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\wpf\DirectoryStats\bin\Debug\System.Windows.Interactivity.dll
 C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\wpf\DirectoryStats\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
 C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\wpf\DirectoryStats\bin\Debug\Microsoft.WindowsAPICodePack.dll
-C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\wpf\DirectoryStats\bin\Debug\NinjaSoft..CommonInfrastructure.pdb
 C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\wpf\DirectoryStats\bin\Debug\NinjaSoft.DirectoryStatusCore.pdb
 C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\wpf\DirectoryStats\bin\Debug\NinjaSoft.AboutModule.pdb
 C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\wpf\DirectoryStats\bin\Debug\NinjaSoft.DirctoryStatsModule.pdb
@@ -112,3 +110,5 @@ C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\wpf\DirectoryStats
 C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\wpf\DirectoryStats\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
 C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\wpf\DirectoryStats\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
 C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\wpf\DirectoryStats\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\wpf\DirectoryStats\bin\Debug\NinjaSoft.CommonInfrastructure.dll
+C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\wpf\DirectoryStats\bin\Debug\NinjaSoft.CommonInfrastructure.pdb

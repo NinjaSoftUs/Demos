@@ -1,0 +1,20 @@
+﻿@using NinjaSoft.CommonInfrastructure.Extenstions
+@model NinjaSoft.CommonInfrastructure.Models.DirStatsSummery
+@{
+    if (Model.HasErrors)
+    {
+        <h3>Scan Completed With Errors (see error log for details).</h3>
+        <p></p>
+    }
+    else
+    {
+        <h3>Scan Completed.</h3>
+        <p></p>
+    }
+}
+
+<h4>Total Size: @Model.TotalBytes.BytesToSting() (@Model.TotalBytes bytes)</h4>
+<h4>Total Files: @Model.TotalFiles</h4>
+<h4>Total Folders: @Model.TotalFolders</h4>
+<p></p>
+

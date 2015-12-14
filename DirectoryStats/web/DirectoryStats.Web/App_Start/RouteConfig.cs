@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Routing;
 
@@ -12,6 +13,19 @@ namespace DirectoryStats.Web
         public static void RegisterRoutes(RouteCollection routes)
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
+
+            //routes.MapHttpRoute(
+            //    name: "DefalutApi",
+            //    routeTemplate: "api/{controller}/{path1};{path2};{path3}",
+            //    defaults:new
+            //    {
+            //        path1 = RouteParameter.Optional,
+            //        path2 = RouteParameter.Optional,
+            //        path3 = RouteParameter.Optional
+            //    }
+                
+            //    );
+
 
             routes.MapRoute(
                 name: "Default",

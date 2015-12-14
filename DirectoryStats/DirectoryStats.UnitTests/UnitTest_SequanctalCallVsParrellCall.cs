@@ -18,6 +18,9 @@ namespace DirectoryStats.UnitTests
     [TestClass]
     public class DirStatsUnitTest
     {
+        /// <summary>
+        /// Tests getting stats synchronously
+        /// </summary>
         [TestMethod]
         public void TestMethod_GetFolderInfos()
         {
@@ -28,7 +31,7 @@ namespace DirectoryStats.UnitTests
                 new DirectoryInfo(@"C:\Program Files"),
                 new DirectoryInfo(@"C:\Program Files (x86)")
             };
-            var results = folderInfo.GetFolderInfos(directoryInfos);
+            var results = folderInfo.GetDirStats(directoryInfos);
 
             var sb = new StringBuilder();
             sb.AppendLine($"HasErros:{results.HasErrors}")
@@ -40,6 +43,9 @@ namespace DirectoryStats.UnitTests
             Assert.IsTrue(results != null);
         }
 
+        /// <summary>
+        /// Tests getting stats asynchronously
+        /// </summary>
         [TestMethod]
         public void UnitTest_Parallel()
         {
@@ -51,13 +57,17 @@ namespace DirectoryStats.UnitTests
 
             var stopWatch = new Stopwatch();
             stopWatch.Start();
-            var t= folderInfo.GetFolderInfosAsync(directoryInfos);
+            var t= folderInfo.GetDirStatsAsync(directoryInfos);
             stopWatch.Stop();
 
 
             Debug.WriteLine(t.Result.ToOutputString());
         }
 
+        /// <summary>
+        /// Tests getting stats synchronously and asynchronously
+        /// and compairs the reulsts
+        /// </summary>
         [TestMethod]
         public void UnitTest_SequentialVsParallel()
         {
@@ -66,14 +76,14 @@ namespace DirectoryStats.UnitTests
             {
                 new DirectoryInfo(@"C:\temp"),
                // new DirectoryInfo(@"C:\Program Files"),
-               //  new DirectoryInfo(@"C:\Program Files (x86)")
+                 //new DirectoryInfo(@"C:\Program Files (x86)")
             };
 
         
             var stopWatch = new Stopwatch();
             stopWatch.Start();
 
-            var results = folderInfo.GetFolderInfos(directoryInfos);
+            var results = folderInfo.GetDirStats(directoryInfos);
 
             stopWatch.Stop();
 
@@ -86,19 +96,21 @@ namespace DirectoryStats.UnitTests
 
             var stopWatch2 = new Stopwatch();
             stopWatch2.Start();
-            var aFolderInfoTask = folderInfo.GetFolderInfosAsync(directoryInfos);
+            var task = folderInfo.GetDirStatsAsync(directoryInfos);
             stopWatch2.Stop();
 
+            var result2 = task.Result;
+
             var sb2 = new StringBuilder();
-            sb2.AppendLine($"HasErrors:{aFolderInfoTask.Result.HasErrors}")
-                .AppendLine($"TotalBytes:{aFolderInfoTask.Result.TotalBytes.BytesToSting()}")
-                .AppendLine($"TotalFiles:{aFolderInfoTask.Result.TotalFiles}")
-                .AppendLine($"TotalFolders:{aFolderInfoTask.Result.TotalFolders}");
+            sb2.AppendLine($"HasErrors:{result2.HasErrors}")
+                .AppendLine($"TotalBytes:{result2.TotalBytes.BytesToSting()}")
+                .AppendLine($"TotalFiles:{result2.TotalFiles}")
+                .AppendLine($"TotalFolders:{result2.TotalFolders}");
             Debug.WriteLine(sb2.ToString());
 
-            Assert.IsTrue(results.TotalBytes == aFolderInfoTask.Result.TotalBytes);
-            Assert.IsTrue(results.TotalFiles == aFolderInfoTask.Result.TotalFiles);
-            Assert.IsTrue(results.TotalFolders == aFolderInfoTask.Result.TotalFolders);
+            Assert.IsTrue(results.TotalBytes == task.Result.TotalBytes);
+            Assert.IsTrue(results.TotalFiles == task.Result.TotalFiles);
+            Assert.IsTrue(results.TotalFolders == task.Result.TotalFolders);
 
             //  Assert.IsTrue(stopWatch.ElapsedTicks> stopWatch2.ElapsedTicks);
 

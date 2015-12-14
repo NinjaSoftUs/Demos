@@ -90,3 +90,75 @@
 2015-12-11 16:40:27,007 ERROR [ANameSpace.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'E:\cbackup\Users\Big Dave\Documents\My Videos'.
 2015-12-11 16:40:27,007 ERROR [ANameSpace.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'E:\cbackup\Users\Big Dave\Documents\My Music'.
 2015-12-11 16:40:45,079 ERROR [ANameSpace.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'E:\System Volume Information' is denied.
+2015-12-13 14:15:19,240 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'E:\$RECYCLE.BIN\S-1-5-18' is denied.
+2015-12-13 14:15:19,267 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'E:\$RECYCLE.BIN\S-1-5-21-1301490750-3184388209-3121372309-106390' is denied.
+2015-12-13 14:15:19,394 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'E:\$RECYCLE.BIN\S-1-5-21-1514951835-2046003855-1839773499-1001' is denied.
+2015-12-13 14:15:19,488 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'E:\$RECYCLE.BIN\S-1-5-21-1705063060-4213844116-2729571231-1001' is denied.
+2015-12-13 14:15:19,538 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'E:\$RECYCLE.BIN\S-1-5-21-1755390995-100713114-1414739251-1001' is denied.
+2015-12-13 14:15:19,594 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'E:\$RECYCLE.BIN\S-1-5-21-1755390995-100713114-1414739251-1002' is denied.
+2015-12-13 14:15:19,780 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'E:\$RECYCLE.BIN\S-1-5-21-2078033408-3037966540-1629587061-1001' is denied.
+2015-12-13 14:15:19,821 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'E:\$RECYCLE.BIN\S-1-5-21-2783274068-1461838048-1182606293-1001' is denied.
+2015-12-13 14:15:19,893 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'E:\$RECYCLE.BIN\S-1-5-21-2995380752-1956577068-1271320645-1001' is denied.
+2015-12-13 14:15:20,020 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'E:\$RECYCLE.BIN\S-1-5-21-30727560-1371454713-2093655339-1000' is denied.
+2015-12-13 14:15:20,120 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'E:\$RECYCLE.BIN\S-1-5-21-910736326-198359723-1436694673-1001' is denied.
+2015-12-13 14:15:30,993 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'E:\$RECYCLE.BIN\S-1-5-18' is denied.
+2015-12-13 14:15:31,214 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'E:\$RECYCLE.BIN\S-1-5-21-1301490750-3184388209-3121372309-106390' is denied.
+2015-12-13 14:15:31,386 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'E:\$RECYCLE.BIN\S-1-5-21-1514951835-2046003855-1839773499-1001' is denied.
+2015-12-13 14:15:31,407 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'E:\$RECYCLE.BIN\S-1-5-21-1705063060-4213844116-2729571231-1001' is denied.
+2015-12-13 14:15:31,498 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'E:\$RECYCLE.BIN\S-1-5-21-1755390995-100713114-1414739251-1001' is denied.
+2015-12-13 14:15:31,620 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'E:\$RECYCLE.BIN\S-1-5-21-1755390995-100713114-1414739251-1002' is denied.
+2015-12-13 14:15:31,650 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'E:\$RECYCLE.BIN\S-1-5-21-2078033408-3037966540-1629587061-1001' is denied.
+2015-12-13 14:15:31,769 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'E:\$RECYCLE.BIN\S-1-5-21-2783274068-1461838048-1182606293-1001' is denied.
+2015-12-13 14:15:31,809 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'E:\$RECYCLE.BIN\S-1-5-21-2995380752-1956577068-1271320645-1001' is denied.
+2015-12-13 14:15:31,851 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'E:\$RECYCLE.BIN\S-1-5-21-30727560-1371454713-2093655339-1000' is denied.
+2015-12-13 14:15:31,961 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'E:\$RECYCLE.BIN\S-1-5-21-910736326-198359723-1436694673-1001' is denied.
+2015-12-13 14:15:37,570 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'E:\cbackup\Users\Big Dave\Documents\My Music'.
+2015-12-13 14:15:37,704 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'E:\cbackup\Users\Big Dave\Documents\My Pictures'.
+2015-12-13 14:15:37,742 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'E:\cbackup\Users\Big Dave\Documents\My Music'.
+2015-12-13 14:15:37,753 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'E:\cbackup\Users\Big Dave\Documents\My Pictures'.
+2015-12-13 14:15:37,828 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'E:\cbackup\Users\Big Dave\Documents\My Videos'.
+2015-12-13 14:15:37,877 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'E:\cbackup\Users\Big Dave\Documents\My Videos'.
+2015-12-13 14:15:55,675 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'E:\cbackup\Users\Big Dave\Documents\My Music'.
+2015-12-13 14:15:55,836 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'E:\cbackup\Users\Big Dave\Documents\My Pictures'.
+2015-12-13 14:15:55,893 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'E:\cbackup\Users\Big Dave\Documents\My Videos'.
+2015-12-13 14:16:00,134 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'E:\cbackup\Users\Big Dave\Documents\My Pictures'.
+2015-12-13 14:16:00,367 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'E:\cbackup\Users\Big Dave\Documents\My Music'.
+2015-12-13 14:16:00,398 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'E:\cbackup\Users\Big Dave\Documents\My Videos'.
+2015-12-13 14:17:37,338 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'E:\System Volume Information' is denied.
+2015-12-13 14:17:37,411 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'E:\System Volume Information' is denied.
+2015-12-13 14:20:47,655 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'E:\$RECYCLE.BIN\S-1-5-18' is denied.
+2015-12-13 14:20:47,699 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'E:\$RECYCLE.BIN\S-1-5-21-1301490750-3184388209-3121372309-106390' is denied.
+2015-12-13 14:20:47,811 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'E:\$RECYCLE.BIN\S-1-5-21-1514951835-2046003855-1839773499-1001' is denied.
+2015-12-13 14:20:47,842 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'E:\$RECYCLE.BIN\S-1-5-21-1705063060-4213844116-2729571231-1001' is denied.
+2015-12-13 14:20:47,920 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'E:\$RECYCLE.BIN\S-1-5-21-1755390995-100713114-1414739251-1001' is denied.
+2015-12-13 14:20:47,956 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'E:\$RECYCLE.BIN\S-1-5-21-1755390995-100713114-1414739251-1002' is denied.
+2015-12-13 14:20:48,077 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'E:\$RECYCLE.BIN\S-1-5-21-2078033408-3037966540-1629587061-1001' is denied.
+2015-12-13 14:20:48,205 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'E:\$RECYCLE.BIN\S-1-5-21-2783274068-1461838048-1182606293-1001' is denied.
+2015-12-13 14:20:48,296 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'E:\$RECYCLE.BIN\S-1-5-21-2995380752-1956577068-1271320645-1001' is denied.
+2015-12-13 14:20:48,367 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'E:\$RECYCLE.BIN\S-1-5-21-30727560-1371454713-2093655339-1000' is denied.
+2015-12-13 14:20:48,408 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'E:\$RECYCLE.BIN\S-1-5-21-910736326-198359723-1436694673-1001' is denied.
+2015-12-13 14:21:01,521 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'E:\cbackup\Users\Big Dave\Documents\My Music'.
+2015-12-13 14:21:01,561 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'E:\cbackup\Users\Big Dave\Documents\My Pictures'.
+2015-12-13 14:21:01,609 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'E:\cbackup\Users\Big Dave\Documents\My Videos'.
+2015-12-13 14:21:01,686 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'E:\cbackup\Users\Big Dave\Documents\My Pictures'.
+2015-12-13 14:21:01,739 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'E:\cbackup\Users\Big Dave\Documents\My Music'.
+2015-12-13 14:21:01,739 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'E:\cbackup\Users\Big Dave\Documents\My Videos'.
+2015-12-13 14:21:47,551 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'E:\System Volume Information' is denied.
+2015-12-13 14:25:33,928 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'E:\$RECYCLE.BIN\S-1-5-21-1301490750-3184388209-3121372309-106390' is denied.
+2015-12-13 14:25:33,936 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'E:\$RECYCLE.BIN\S-1-5-18' is denied.
+2015-12-13 14:25:34,001 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'E:\$RECYCLE.BIN\S-1-5-21-1514951835-2046003855-1839773499-1001' is denied.
+2015-12-13 14:25:34,069 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'E:\$RECYCLE.BIN\S-1-5-21-1705063060-4213844116-2729571231-1001' is denied.
+2015-12-13 14:25:34,138 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'E:\$RECYCLE.BIN\S-1-5-21-1755390995-100713114-1414739251-1001' is denied.
+2015-12-13 14:25:34,338 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'E:\$RECYCLE.BIN\S-1-5-21-2078033408-3037966540-1629587061-1001' is denied.
+2015-12-13 14:25:34,344 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'E:\$RECYCLE.BIN\S-1-5-21-1755390995-100713114-1414739251-1002' is denied.
+2015-12-13 14:25:34,399 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'E:\$RECYCLE.BIN\S-1-5-21-2783274068-1461838048-1182606293-1001' is denied.
+2015-12-13 14:25:34,545 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'E:\$RECYCLE.BIN\S-1-5-21-2995380752-1956577068-1271320645-1001' is denied.
+2015-12-13 14:25:34,620 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'E:\$RECYCLE.BIN\S-1-5-21-30727560-1371454713-2093655339-1000' is denied.
+2015-12-13 14:25:34,639 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'E:\$RECYCLE.BIN\S-1-5-21-910736326-198359723-1436694673-1001' is denied.
+2015-12-13 14:25:48,204 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'E:\cbackup\Users\Big Dave\Documents\My Music'.
+2015-12-13 14:25:48,313 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'E:\cbackup\Users\Big Dave\Documents\My Pictures'.
+2015-12-13 14:25:48,501 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'E:\cbackup\Users\Big Dave\Documents\My Pictures'.
+2015-12-13 14:25:48,501 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'E:\cbackup\Users\Big Dave\Documents\My Videos'.
+2015-12-13 14:25:48,537 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'E:\cbackup\Users\Big Dave\Documents\My Music'.
+2015-12-13 14:25:48,538 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Could not find a part of the path 'E:\cbackup\Users\Big Dave\Documents\My Videos'.
+2015-12-13 14:26:33,106 ERROR [NinjaSoft.CommonInfrastructure.Utils.DirStatsHelper] - Access to the path 'E:\System Volume Information' is denied.

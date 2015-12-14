@@ -4,6 +4,7 @@ using System.ComponentModel.Composition;
 using NinjaSoft.DirectoryStatusCore.enums;
 using NinjaSoft.DirectoryStatusCore.Events;
 using NinjaSoft.DirectoryStatusCore.Extenstions;
+using NinjaSoft.HomeModule.ViewModels;
 using NinjaSoft.HomeModule.Views;
 using Prism.Regions;
 
@@ -32,6 +33,8 @@ namespace NinjaSoft.HomeModule.Controller
             if (viewType == ViewType.HomeView)
             {
               var view =  _serviceLocator.GetInstance<HomeView>();
+              var viewModel =  _serviceLocator.GetInstance<HomeViweModel>();
+                view.DataContext = viewModel;
                 _regionManager.Regions["MainRegion"].ShowView(view);
             }
         }

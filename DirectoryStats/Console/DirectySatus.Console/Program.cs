@@ -64,10 +64,7 @@ namespace NinjaSoft.DirectoryStats
                 using (var helper = new DirStatsHelper())
                 {
                     _stopWatch.Start();
-                    var t = helper.GetFolderInfosAsync(directoryInfos.ToArray(), () =>
-                     {
-                         Console.WriteLine(".");
-                     });
+                    var t = helper.GetDirStatsAsync(directoryInfos.ToArray());
                     _stopWatch.Stop();
                     DispalyResults(t.Result);
                 }

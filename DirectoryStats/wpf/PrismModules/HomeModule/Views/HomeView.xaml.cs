@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.Composition;
+using System.Windows;
 using System.Windows.Controls;
 
 namespace NinjaSoft.HomeModule.Views
@@ -10,6 +11,11 @@ namespace NinjaSoft.HomeModule.Views
         public HomeView()
         {
             InitializeComponent();
+        }
+
+        private void HomeView_OnLoaded(object sender, RoutedEventArgs e)
+        {
+          
         }
     }
 }

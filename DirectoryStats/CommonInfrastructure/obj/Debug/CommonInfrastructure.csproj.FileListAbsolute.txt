@@ -25,8 +25,6 @@ c:\src\Sandbox\DirectoryStats\CommonInfrastructure\bin\Debug\NinjaSoft..CommonIn
 c:\src\Sandbox\DirectoryStats\CommonInfrastructure\bin\Debug\NinjaSoft..CommonInfrastructure.pdb
 c:\src\Sandbox\DirectoryStats\CommonInfrastructure\obj\Debug\NinjaSoft..CommonInfrastructure.dll
 c:\src\Sandbox\DirectoryStats\CommonInfrastructure\obj\Debug\NinjaSoft..CommonInfrastructure.pdb
-C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\CommonInfrastructure\bin\Debug\NinjaSoft..CommonInfrastructure.dll
-C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\CommonInfrastructure\bin\Debug\NinjaSoft..CommonInfrastructure.pdb
 C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\CommonInfrastructure\bin\Debug\log4net.dll
 C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\CommonInfrastructure\bin\Debug\Microsoft.Practices.ServiceLocation.dll
 C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\CommonInfrastructure\bin\Debug\Prism.dll
@@ -50,5 +48,7 @@ C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\CommonInfrastructu
 C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\CommonInfrastructure\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
 C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\CommonInfrastructure\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
 C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\CommonInfrastructure\obj\Debug\CommonInfrastructure.csprojResolveAssemblyReference.cache
-C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\CommonInfrastructure\obj\Debug\NinjaSoft..CommonInfrastructure.dll
-C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\CommonInfrastructure\obj\Debug\NinjaSoft..CommonInfrastructure.pdb
+C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\CommonInfrastructure\bin\Debug\NinjaSoft.CommonInfrastructure.dll
+C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\CommonInfrastructure\bin\Debug\NinjaSoft.CommonInfrastructure.pdb
+C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\CommonInfrastructure\obj\Debug\NinjaSoft.CommonInfrastructure.dll
+C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\CommonInfrastructure\obj\Debug\NinjaSoft.CommonInfrastructure.pdb

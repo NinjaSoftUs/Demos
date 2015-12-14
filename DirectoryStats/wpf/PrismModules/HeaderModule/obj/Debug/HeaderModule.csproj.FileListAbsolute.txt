@@ -43,13 +43,11 @@ C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\wpf\PrismModules\H
 C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\wpf\PrismModules\HeaderModule\bin\Debug\NinjaSoft..HeaderModule.pdb
 C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\wpf\PrismModules\HeaderModule\bin\Debug\log4net.dll
 C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\wpf\PrismModules\HeaderModule\bin\Debug\Microsoft.Practices.ServiceLocation.dll
-C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\wpf\PrismModules\HeaderModule\bin\Debug\NinjaSoft..CommonInfrastructure.dll
 C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\wpf\PrismModules\HeaderModule\bin\Debug\NinjaSoft.DirectoryStatusCore.dll
 C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\wpf\PrismModules\HeaderModule\bin\Debug\Prism.dll
 C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\wpf\PrismModules\HeaderModule\bin\Debug\Prism.Mef.Wpf.dll
 C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\wpf\PrismModules\HeaderModule\bin\Debug\Prism.Wpf.dll
 C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\wpf\PrismModules\HeaderModule\bin\Debug\System.Windows.Interactivity.dll
-C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\wpf\PrismModules\HeaderModule\bin\Debug\NinjaSoft..CommonInfrastructure.pdb
 C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\wpf\PrismModules\HeaderModule\bin\Debug\NinjaSoft.DirectoryStatusCore.pdb
 C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\wpf\PrismModules\HeaderModule\bin\Debug\log4net.xml
 C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\wpf\PrismModules\HeaderModule\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
@@ -80,3 +78,5 @@ C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\wpf\PrismModules\H
 C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\wpf\PrismModules\HeaderModule\obj\Debug\HeaderModule.csproj.GenerateResource.Cache
 C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\wpf\PrismModules\HeaderModule\obj\Debug\NinjaSoft..HeaderModule.dll
 C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\wpf\PrismModules\HeaderModule\obj\Debug\NinjaSoft..HeaderModule.pdb
+C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\wpf\PrismModules\HeaderModule\bin\Debug\NinjaSoft.CommonInfrastructure.dll
+C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\wpf\PrismModules\HeaderModule\bin\Debug\NinjaSoft.CommonInfrastructure.pdb

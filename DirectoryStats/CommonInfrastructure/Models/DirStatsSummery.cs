@@ -1,14 +1,13 @@
-﻿namespace NinjaSoft.CommonInfrastructure.Models
+﻿using System;
+using System.Collections.Generic;
+
+namespace NinjaSoft.CommonInfrastructure.Models
 {
+    [Serializable]
     public class DirStatsSummery : IDirStatsSummery
     {
         private bool _hasErrors;
-        public int TotalFiles { get; set; }
-
-        public ulong TotalBytes { get; set; }
-
-        public int TotalFolders { get; set; }
-
+        public TimeSpan ExecutionTime { get; set; }
         public bool HasErrors
         {
             get { return _hasErrors; }
@@ -22,5 +21,9 @@
                 }
             }
         }
+
+        public ulong TotalBytes { get; set; }
+        public int TotalFiles { get; set; }
+        public int TotalFolders { get; set; }
     }
 }

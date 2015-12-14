@@ -165,7 +165,7 @@
                     </DrawingBrush>
                 </Rectangle.Fill>
             </Rectangle>
-            <Label Content="NinjaSoft" HorizontalAlignment="Left" VerticalAlignment="Bottom" Grid.Row="0" Grid.Column="1"  Style="{DynamicResource H1}" ></Label>
+            <Label Content="NinjaSoft" HorizontalAlignment="Left" VerticalAlignment="Bottom" Grid.Row="0" Grid.Column="1"  Style="{DynamicResource H1}" Foreground="WhiteSmoke" ></Label>
             <Label Content="Directory Stats Control" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Column="1" Grid.Row="1" Style="{DynamicResource H2}" Margin="6,0,0,0"  />
 
             <controls:MenuControl Grid.Column="2" Grid.Row="0" Grid.RowSpan="2"/>

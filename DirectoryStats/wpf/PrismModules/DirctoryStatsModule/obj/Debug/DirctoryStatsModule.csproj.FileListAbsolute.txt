@@ -69,8 +69,6 @@ C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\wpf\PrismModules\D
 C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\wpf\PrismModules\DirctoryStatsModule\obj\Debug\DirctoryStatsModule.csproj.GenerateResource.Cache
 C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\wpf\PrismModules\DirctoryStatsModule\obj\Debug\NinjaSoft.DirctoryStatsModule.dll
 C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\wpf\PrismModules\DirctoryStatsModule\obj\Debug\NinjaSoft.DirctoryStatsModule.pdb
-C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\wpf\PrismModules\DirctoryStatsModule\bin\Debug\NinjaSoft..CommonInfrastructure.dll
-C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\wpf\PrismModules\DirctoryStatsModule\bin\Debug\NinjaSoft..CommonInfrastructure.pdb
 C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\wpf\PrismModules\DirctoryStatsModule\bin\Debug\Xceed.Wpf.AvalonDock.dll
 C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\wpf\PrismModules\DirctoryStatsModule\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
 C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\wpf\PrismModules\DirctoryStatsModule\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
@@ -87,3 +85,5 @@ C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\wpf\PrismModules\D
 C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\wpf\PrismModules\DirctoryStatsModule\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
 C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\wpf\PrismModules\DirctoryStatsModule\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
 C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\wpf\PrismModules\DirctoryStatsModule\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\wpf\PrismModules\DirctoryStatsModule\bin\Debug\NinjaSoft.CommonInfrastructure.dll
+C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\wpf\PrismModules\DirctoryStatsModule\bin\Debug\NinjaSoft.CommonInfrastructure.pdb

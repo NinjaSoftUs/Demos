@@ -120,11 +120,11 @@ namespace NinjaSoft.DirctoryStatsModule.ViewModel
            Task.Factory.StartNew(() =>
             {
                 var helper = new DirStatsHelper();
-                var task = helper.GetFolderInfosAsync(directoryInfos.ToArray());
+                var task = helper.GetDirStatsAsync(directoryInfos.ToArray());
                 _taskReult = task.Result;
             }).ContinueWith((r) =>
             {
-                // Wait for the GetFolderInfos task to complete.
+                // Wait for the GetDirStats task to complete.
                 // ... Display its results.
                 _stopWatch.Stop();
 

@@ -1,51 +1,67 @@
-﻿@model NinjaSoft.CommonInfrastructure.Models.DirStatsSummery
+﻿@using Newtonsoft.Json
+@using NinjaSoft.CommonInfrastructure.Models
+@model NinjaSoft.CommonInfrastructure.Models.DirStatsSummery
 
 @{
     ViewBag.Title = "Scan";
 }
 
-<h2>Scan</h2>
+@section Scripts{
+    <script src="~/Scripts/angular.min.js"></script>
+    <script src="~/js/app-scan.js"></script>
+    <script src="~/js/scanController.js"></script>
+}
+<div class="container">
+    <div class="col-md-6">
+        <h2>Scan</h2><span>Please note file paths are server side paths:</span>
+        <p></p>
+    </div>
+ 
+</div>
 
-<div>
+    <div class="container" ng-app="app-scan">
 
-    <form method="GET">
+        <div ng-controller="scanController as vm">
+            <div class="text-danger" ng-show="vm.errorMessage">{{vm.errorMessage}}</div>
+            <div class="col-md-3 col-sm-5">
+                <form novalidate name="scanJobForm" ng-submit="vm.runScan()">
 
-        <div>
-            <label>Path1:</label>
-            <input type="search" name="path1" />
-        </div>
-        <div>
-            <label>Path2:</label>
-            <input type="search" name="path2" />
-        </div>
-        <div>
-            <label>Path3:</label>
-            <input type="search" name="path3" />
-        </div>
-        <div><input type="submit" value="Scan" /></div>
-    </form>
-
-    @*@using (Ajax.BeginForm(
-                    new AjaxOptions{
-                        HttpMethod = "post",
-                        InsertionMode = InsertionMode.Replace,
-                        UpdateTargetId = "ScanResult"}))
-        {
-            <div>
-                <label>Path1:</label>
-                <input type="search" name="path1" />
+                    <div class="form-group">
+                        <label for="path1">Path1:</label>
+                        <input type="text" id="path1" name="path1" class="form-control" ng-model="vm.path1" required ng-minlength="3"/>
+                        <span ng-show="scanJobForm.path1.$error.required" class="text-warning">Path1 required (Example: C:\Temp)</span>
+                        <span ng-show="scanJobForm.path1.$error.minlength" class="text-warning">Must be at least three characters.</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="path2">Path2:</label>
+                        <input type="text" id="path2" name="path2" class="form-control" ng-model="vm.path2" ng-minlength="3"/>
+                        <span ng-show="scanJobForm.path2.$error.minlength" class="text-warning">Must be at least three characters.</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="path3">Path3:</label>
+                        <input type="text" id="path3" name="path3" class="form-control" ng-model="vm.path3" ng-minlength="3"/>
+                        <span ng-show="scanJobForm.path3.$error.minlength" class="text-warning">Must be at least three characters.</span>
+                    </div>
+                    <div>
+                        <input type="submit" value="Scan"
+                               class="btn btn-success"
+                               ng-disabled="scanJobForm.$invalid"/>
+                    </div>
+                </form>
             </div>
+            <div class="col-md-9 col-sm-5">
+                <div class="text-danger" ng-show="vm.errorMeassage"></div>
                 <div>
-                    <label>Path2:</label>
-                    <input type="search" name="path2" />
+                    <table class="table-responsive">
+                        <tr ng-repeat="dir in vm.scanDirs "><td>{{dir.path}}</td></tr>
+                    </table>
                 </div>
-                <div>
-                    <label>Path3:</label>
-                    <input type="search" name="path3" />
-                </div>
-                <div><input type="submit" value="Scan" /></div>
-        }*@
-</div>
 
-<div id="ScanResult">
-</div>
+                <div ng-show="vm.isBusy" class="text-center"><i class="fa fa-spinner fa-spin" ></i>Directory Scan Running...</div>
+                <div id="ScanResult" ng-show="vm.results">
+            
+                   {{vm.results}}
+                </div>
+            </div>
+        </div>
+        </div>

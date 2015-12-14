@@ -1,7 +1,54 @@
-﻿
-@{
+﻿@{
     ViewBag.Title = "About";
 }
 
-<h2>About</h2>
+<h1>About</h1>
+<h3>Project Description</h3>
+<p>
+    This purpose of this project is a demonstrate the Model-View-Controller (MVC) programing.
+    It is a Web application and is one of three projects in a solution that also contains a Console
+    Application and a WPF application. It was created using ASP.NET C# and makes use of Bootstrap 3,
+    Anglar.JS and log4net. Its synopsis is to allow a user to input up to 3 directories and then display
+    the aggregate sum of all the file sizes within the specified directories recursively. The business
+    logic for aggregating the sums is contained and a shared DLL. This library also has other classes are
+    reused throughout this project and the other projects in the solution. This project is a C# MVC project
+    created with the default ASP.NET 4.5 MVC Template using Visual Studio 2015. It has one controller, a
+    layout page three views and one model.
+</p>
+<h3>Page Layout</h3>
+<p>
+    The look and feel the site was achieved using CSS from Bootstrap, Bootswatch, and Font Awesome. There
+    are three views Home, Scan and the one you are looking at now, About. Home and About are static views.
+    The Scan view is where all the heavy lifting occurs. This is where the user inputs the paths that they
+    want to tally. The page has a web form that decorated with Angular.js tags. This is how we achieve a
+    responsive design. Web form validation and submission and AJAX page updats are handled by Angular.js
+    and some custom Java scripts.
+</p>
+<h3>Business Logic</h3>
+As stated earlier the business logic for computing the summery data is contained in a common library.
+When a user clicks the “Scan” button, Angular.js intercepts the form submit and calls the controllers
+“RunScan” action. The controller creates a new instance of a helper class. This helper class implements
+Lock-free parallel tasks pattern design (using the Task Parallel Library (TPL)) and returns the results
+back to the controller which in turn hand the model back Angler. Then Angler preforms the data binding.
+This all takes place on the client side the thus providing a responsive design.
 
+<h3>Other Points of Interest</h3>
+
+<p>
+    Logging for this project and other projects in this solution uses log4net. The log4net implantation allows
+    us to configure can change the logging configuration on the fly. That is, you can change the logging
+    behavior without having to restart the application or web application. This is very useful in trouble
+    shooting production issue.
+</p>
+
+<p>
+    The directory files size calculation all run recursively on their own threads
+    using asynchronous methods. Asynchronous programing can increase performance of your application however it
+    introduces the risk of race conditions, live lock, dead locks and other types of issues. The most common
+    pitfall is race conditions from shared resources. The essayist way to prevent race condition is to lock
+    the shared resources. This works fine but is not efficient. This project was designed with a lock-free
+    approach. There is a Unit Test in the solution used to test async operation to insure the accuracy of the
+    results and verifies are not any race conditions during the calculation. The unit test first runs the
+    calculations using synchronous execution and then runs the same calculation using asynchronous operations.
+    Then the output from both operations are compared and are the same.
+</p>

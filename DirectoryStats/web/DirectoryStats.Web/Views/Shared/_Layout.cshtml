@@ -6,7 +6,8 @@
     <title>@ViewBag.Title - DirectoryStats.Web</title>
     <link rel="shortcut icon" href="~/images/NinjaLogo.png" type="image/x-icon" />
     <link rel="stylesheet" href="~/Content/bootstrap.min.css"/>
-    <link rel="stylesheet" href="~/Content/bootswatch/spacelab/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/Content/bootswatch/spacelab/bootstrap.min.css"/>
+    <link rel="stylesheet" href="~/Content/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="~/Content/Site.css"/>
 
     @Styles.Render("~/Content/css")
@@ -33,26 +34,42 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="@Url.Action("Index", "Home")">Home</a></li>
-                    <li><a href="@Url.Action("Scan", "Home")">Scan</a></li>
-                    <li><a href="@Url.Action("About", "Home")">About</a></li>
-                   
+                    <li>
+                        <a href="@Url.Action("Index", "Home")">
+                            <div><img src="~/images/home.png" alt="Home Icon" /></div>
+                            <div>&nbsp;Home</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="@Url.Action("Scan", "Home")">
+                            <div><img src="~/images/system-search.png" alt="Scan Icon" /></div>
+                            <div>&nbsp;&nbsp;Scan</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="@Url.Action("About", "Home")">
+                            <div><img src="~/images/unknown_green.png" alt="About Icon" /></div>
+                            <div>&nbsp;&nbsp;About</div>
+                        </a>
+                    </li>
+
                 </ul>
             </div>
         </div>
     </div>
 
 
-    <div class="container body-content">
+    <div id="BodyContent" class="container body-content">
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; 2015 - DirectoryStats.Web</p>
+            <p>&copy; 2015 - NinjaSoft</p>
         </footer>
     </div>
 
-    @*<script src="~/Scripts/jquery-2.1.4.min.js"></script>
-    <script src="~/Scripts/bootstrap.min.js"></script>*@
+    <script src="~/Scripts/j"></script>
+
+
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")

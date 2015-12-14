@@ -7,27 +7,27 @@
              d:DesignHeight="300"
              d:DesignWidth="300"
              mc:Ignorable="d">
-    <Border Background="#FF6790E8">
+    <Border Background="WhiteSmoke">
         <Grid>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="Auto" />
-                <RowDefinition />
-            </Grid.RowDefinitions>
-            <Label Content="Scan" Style="{DynamicResource H1}" />
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="169*"/>
+                <ColumnDefinition Width="131*"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel>
+                <Label Content="Scan" Style="{DynamicResource H1}" Grid.ColumnSpan="2" />
 
-            <GroupBox Grid.Row="1" Header="Directories">
-                <StackPanel>
-                    <Grid>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition />
-                            <ColumnDefinition Width="Auto" />
-                        </Grid.ColumnDefinitions>
+                <GroupBox Grid.Column="0" Header="Directories" >
+                    <StackPanel>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
 
-                        <TextBox x:Name="TextBoxPath1"
+                            <TextBox x:Name="TextBoxPath1"
                                  VerticalAlignment="Center"
                                  Text="{Binding Path1}" />
-                        <Button x:Name="BtnPath1"
+                            <Button x:Name="BtnPath1"
                                 Grid.Column="1"
                                 Width="20"
                                 Height="20"
@@ -35,18 +35,18 @@
                                 VerticalAlignment="Center"
                                 Click="BtnPath1_OnClick"
                                 Content="..." />
-                    </Grid>
+                        </Grid>
 
-                    <Grid>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition />
-                            <ColumnDefinition Width="Auto" />
-                        </Grid.ColumnDefinitions>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
 
-                        <TextBox x:Name="TextBoxPath2"
+                            <TextBox x:Name="TextBoxPath2"
                                  VerticalAlignment="Center"
                                  Text="{Binding Path2}" />
-                        <Button x:Name="BtnPath2"
+                            <Button x:Name="BtnPath2"
                                 Grid.Column="1"
                                 Width="20"
                                 Height="20"
@@ -54,18 +54,18 @@
                                 VerticalAlignment="Center"
                                 Click="BtnPath2_OnClick"
                                 Content="..." />
-                    </Grid>
+                        </Grid>
 
-                    <Grid>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition />
-                            <ColumnDefinition Width="Auto" />
-                        </Grid.ColumnDefinitions>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
 
-                        <TextBox x:Name="TextBoxPath3"
+                            <TextBox x:Name="TextBoxPath3"
                                  VerticalAlignment="Center"
                                  Text="{Binding Path3}" />
-                        <Button x:Name="BtnPath3"
+                            <Button x:Name="BtnPath3"
                                 Grid.Column="1"
                                 Width="20"
                                 Height="20"
@@ -73,15 +73,19 @@
                                 VerticalAlignment="Center"
                                 Click="BtnPath3_OnClick"
                                 Content="..." />
-                    </Grid>
-                </StackPanel>
+                        </Grid>
+                    </StackPanel>
 
-            </GroupBox>
+                </GroupBox>
+            </StackPanel>
 
-            <GroupBox Header="Results" Grid.Row="2">
+
+            <GroupBox Header="Results" Grid.Column="1" >
                 <Grid>
-                    <xctk:BusyIndicator IsBusy="{Binding IsBusy}">
-                    <TextBlock Text="{Binding Summary}" Style="{DynamicResource TextBlockResult}"/>
+                    <xctk:BusyIndicator IsBusy="{Binding IsBusy}" ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto">
+                      <ScrollViewer>
+                        <TextBlock Text="{Binding Summary}" Style="{DynamicResource TextBlockResult}" TextWrapping="Wrap"/>
+                        </ScrollViewer>
                     </xctk:BusyIndicator>
                 </Grid>
             </GroupBox>

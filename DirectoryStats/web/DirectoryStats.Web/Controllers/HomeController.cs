@@ -1,11 +1,12 @@
-﻿using System;
+﻿using log4net;
 using NinjaSoft.CommonInfrastructure.Models;
 using NinjaSoft.CommonInfrastructure.Utils;
 using System.Collections.Generic;
 using System.IO;
 using System.Threading.Tasks;
 using System.Web.Mvc;
-using log4net;
+using System.Web.Script.Serialization;
+using NinjaSoft.CommonInfrastructure.Extenstions;
 
 namespace DirectoryStats.Web.Controllers
 {
@@ -23,42 +24,42 @@ namespace DirectoryStats.Web.Controllers
             return View();
         }
 
-        public ActionResult Scan(string path1,string path2, string path3)
+        public ActionResult Scan()
         {
-            var directoryInfos = new List<DirectoryInfo>();
-
-            if (!string.IsNullOrWhiteSpace(path1))
-            {
-                directoryInfos.Add(new DirectoryInfo(path1));
-                _log.Info($"Scanning {path1}");
-            }
-
-            if (!string.IsNullOrWhiteSpace(path2))
-            {
-                directoryInfos.Add(new DirectoryInfo(path2));
-                _log.Info($"Scanning {path2}");
-            }
-
-            if (!string.IsNullOrWhiteSpace(path3))
-            {
-                directoryInfos.Add(new DirectoryInfo(path3));
-                _log.Info($"Scanning {path3}");
-            }
-
-            DirStatsSummery model =null;
-
-            var task = new Task(() =>
-            {
-                
-                var helper = new DirStatsHelper();
-                var r = helper.GetFolderInfosAsync(directoryInfos.ToArray());
-                model = r.Result;
-            });
-            task.Start();
-            task.Wait(TimeSpan.FromSeconds(20));
-            
-             return View(model);
+            return View();
         }
+        public async Task<string> RunScan(string path1, string path2, string path3)
+        {
+            if (path1 != null || path2 != null || path3 != null)
+            {
+                var directoryInfos = new List<DirectoryInfo>();
 
-   }
+                if (!string.IsNullOrWhiteSpace(path1))
+                {
+                    directoryInfos.Add(new DirectoryInfo(path1));
+                    _log.Info($"Adding Scanning path: {path1}");
+                }
+
+                if (!string.IsNullOrWhiteSpace(path2))
+                {
+                    directoryInfos.Add(new DirectoryInfo(path2));
+                    _log.Info($"Adding Scanning path: {path2}");
+                }
+
+                if (!string.IsNullOrWhiteSpace(path3))
+                {
+                    directoryInfos.Add(new DirectoryInfo(path3));
+                    _log.Info($"Adding Scanning path: {path3}");
+                }
+
+                _log.Info("Starting Scan");
+                var helper = new DirStatsHelper();
+                var dirStatsSummery = await helper.GetDirStatsAsync(directoryInfos.ToArray());
+                 _log.Info("Starting Complete");
+                //var json = new JavaScriptSerializer().Serialize(dirStatsSummery);
+                return dirStatsSummery.ToOutputString();
+            }
+            return null;
+        }
+    }
 }

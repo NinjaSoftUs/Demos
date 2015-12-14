@@ -29,9 +29,16 @@ namespace NinjaSoft.CommonInfrastructure.Extenstions
         public static string ToOutputString(this DirStatsSummery value)
         {
             var sb = new StringBuilder();
-            sb.AppendLine($"Total Folders: {value.TotalFolders}");
-            sb.AppendLine($"Total Files: {value.TotalFiles}");
-            sb.AppendLine($"Size: {value.TotalBytes.BytesToSting()} ({value.TotalBytes.ToString("###,###,###,###,###")} bytes)");
+            sb.AppendLine($"Total Folders: {value.TotalFolders.ToString("###,###,###")},");
+            sb.AppendLine($"Total Files: {value.TotalFiles.ToString("###,###,###")},");
+            sb.AppendLine($"Size: {value.TotalBytes.BytesToSting()} ({value.TotalBytes.ToString("###,###,###,###,###")} bytes).");
+
+            if (value.HasErrors)
+            {
+                sb.AppendLine();
+                sb.AppendLine($"One or more errors occurred. Check logs for details.");
+            }
+
             return sb.ToString();
         }
     }
