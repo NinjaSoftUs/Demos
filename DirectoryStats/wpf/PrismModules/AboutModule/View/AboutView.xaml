@@ -18,7 +18,7 @@
                               Margin="3"
                               BorderBrush="Gray"
                               IsReadOnly="True"
-                              Padding="3"
+                              Padding="15"
                               ScrollViewer.VerticalScrollBarVisibility="Auto"
                               Text="{Binding AboutNotes}" />
         </Grid>
