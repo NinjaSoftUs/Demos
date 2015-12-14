@@ -16,6 +16,7 @@ namespace NinjaSoft.CommonInfrastructure.Utils
 
         private int _foolerCount;
         private List<DirStatsSummery> _summary;
+        private bool _hasErros;
 
         #region Sequential Methods
 
@@ -89,7 +90,7 @@ namespace NinjaSoft.CommonInfrastructure.Utils
             var stopWatch = new Stopwatch();
             stopWatch.Start();
 
-         
+            _hasErros = false;
             _summary = new List<DirStatsSummery>();
 
 
@@ -97,7 +98,16 @@ namespace NinjaSoft.CommonInfrastructure.Utils
              {
                  Parallel.ForEach(directoryInfos, directoryInfo =>
                  {
-                     GetDirStatsRecursively(directoryInfo.GetDirectories());
+
+                     try
+                     {
+                         GetDirStatsRecursively(directoryInfo.GetDirectories());
+                     }
+                     catch (Exception e)
+                     {
+                         _log.Error(e.Message,e);
+                         _hasErros = true;
+                     }
                  });
              });
          
@@ -107,8 +117,8 @@ namespace NinjaSoft.CommonInfrastructure.Utils
             var dirStatsSummery = new DirStatsSummery();
             stopWatch.Stop();
 
-          
 
+            dirStatsSummery.HasErrors = _hasErros;
             dirStatsSummery.ExecutionTime = stopWatch.Elapsed;
             dirStatsSummery.TotalFiles = _summary.Select(x => x.TotalFiles).Sum();
             dirStatsSummery.TotalBytes = _summary.Select(items => items.TotalBytes)
