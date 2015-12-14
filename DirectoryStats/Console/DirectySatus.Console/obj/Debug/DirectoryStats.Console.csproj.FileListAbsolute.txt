@@ -36,3 +36,13 @@ C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\Console\DirectySat
 C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\Console\DirectySatus.Console\obj\Debug\DirectoryStats.Console.csprojResolveAssemblyReference.cache
 C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\Console\DirectySatus.Console\obj\Debug\DirectoryStats.exe
 C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\Console\DirectySatus.Console\obj\Debug\DirectoryStats.pdb
+C:\Users\DaveB\Documents\GitHub\Demos\DirectoryStats\Console\DirectySatus.Console\bin\Debug\DirectoryStats.exe.config
+C:\Users\DaveB\Documents\GitHub\Demos\DirectoryStats\Console\DirectySatus.Console\bin\Debug\DirectoryStats.exe
+C:\Users\DaveB\Documents\GitHub\Demos\DirectoryStats\Console\DirectySatus.Console\bin\Debug\DirectoryStats.pdb
+C:\Users\DaveB\Documents\GitHub\Demos\DirectoryStats\Console\DirectySatus.Console\bin\Debug\log4net.dll
+C:\Users\DaveB\Documents\GitHub\Demos\DirectoryStats\Console\DirectySatus.Console\bin\Debug\NinjaSoft.CommonInfrastructure.dll
+C:\Users\DaveB\Documents\GitHub\Demos\DirectoryStats\Console\DirectySatus.Console\bin\Debug\NinjaSoft.CommonInfrastructure.pdb
+C:\Users\DaveB\Documents\GitHub\Demos\DirectoryStats\Console\DirectySatus.Console\bin\Debug\log4net.xml
+C:\Users\DaveB\Documents\GitHub\Demos\DirectoryStats\Console\DirectySatus.Console\obj\Debug\DirectoryStats.Console.csprojResolveAssemblyReference.cache
+C:\Users\DaveB\Documents\GitHub\Demos\DirectoryStats\Console\DirectySatus.Console\obj\Debug\DirectoryStats.exe
+C:\Users\DaveB\Documents\GitHub\Demos\DirectoryStats\Console\DirectySatus.Console\obj\Debug\DirectoryStats.pdb

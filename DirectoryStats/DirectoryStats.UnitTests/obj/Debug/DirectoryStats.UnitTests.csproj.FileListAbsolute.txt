@@ -36,3 +36,13 @@ C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\DirectoryStats.Uni
 C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\DirectoryStats.UnitTests\obj\Debug\DirectoryStats.UnitTests.pdb
 C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\DirectoryStats.UnitTests\bin\Debug\NinjaSoft.CommonInfrastructure.dll
 C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\DirectoryStats.UnitTests\bin\Debug\NinjaSoft.CommonInfrastructure.pdb
+C:\Users\DaveB\Documents\GitHub\Demos\DirectoryStats\DirectoryStats.UnitTests\bin\Debug\DirectoryStats.UnitTests.dll
+C:\Users\DaveB\Documents\GitHub\Demos\DirectoryStats\DirectoryStats.UnitTests\bin\Debug\DirectoryStats.UnitTests.pdb
+C:\Users\DaveB\Documents\GitHub\Demos\DirectoryStats\DirectoryStats.UnitTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\DaveB\Documents\GitHub\Demos\DirectoryStats\DirectoryStats.UnitTests\bin\Debug\NinjaSoft.CommonInfrastructure.dll
+C:\Users\DaveB\Documents\GitHub\Demos\DirectoryStats\DirectoryStats.UnitTests\bin\Debug\log4net.dll
+C:\Users\DaveB\Documents\GitHub\Demos\DirectoryStats\DirectoryStats.UnitTests\bin\Debug\NinjaSoft.CommonInfrastructure.pdb
+C:\Users\DaveB\Documents\GitHub\Demos\DirectoryStats\DirectoryStats.UnitTests\bin\Debug\log4net.xml
+C:\Users\DaveB\Documents\GitHub\Demos\DirectoryStats\DirectoryStats.UnitTests\obj\Debug\DirectoryStats.UnitTests.csprojResolveAssemblyReference.cache
+C:\Users\DaveB\Documents\GitHub\Demos\DirectoryStats\DirectoryStats.UnitTests\obj\Debug\DirectoryStats.UnitTests.dll
+C:\Users\DaveB\Documents\GitHub\Demos\DirectoryStats\DirectoryStats.UnitTests\obj\Debug\DirectoryStats.UnitTests.pdb

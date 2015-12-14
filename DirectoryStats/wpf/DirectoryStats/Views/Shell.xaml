@@ -4,7 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:regions="http://prismlibrary.com/"
-        Title="Direcoty Stats"
+        Title="Directory Stats"
         Width="480"
         Height="350"
         MinWidth="480"

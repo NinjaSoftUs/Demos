@@ -4,7 +4,7 @@
 library
 C#
 .cs
-C:\Users\DaveB\Documents\GitHub\David-Brighton\DirectoryStats\wpf\PrismModules\DirctoryStatsModule\obj\Debug\
+C:\Users\DaveB\Documents\GitHub\Demos\DirectoryStats\wpf\PrismModules\DirctoryStatsModule\obj\Debug\
 NinjaSoft.DirctoryStatsModule
 none
 false
@@ -13,7 +13,7 @@ DEBUG;TRACE
 1-1501202866
 
 71536861978
-80-2128836024
+801568757885
 Views\DirStatusView.xaml;
 
 False

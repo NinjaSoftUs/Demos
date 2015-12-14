@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.Composition;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -21,7 +22,11 @@ namespace NinjaSoft.HomeModule.ViewModels
         [ImportingConstructor]
       public HomeViweModel()
       {
-          Notes = "Hi Mom";
-      }
+            var fileInf = new FileInfo(@"Resources\home.rtf");
+            if (fileInf.Exists)
+            {
+                Notes = File.ReadAllText(fileInf.FullName);
+            }
+        }
     }
 }

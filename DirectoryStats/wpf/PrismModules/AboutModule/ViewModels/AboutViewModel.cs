@@ -1,6 +1,7 @@
 ﻿using Prism.Mvvm;
 using System.ComponentModel.Composition;
 using System.ComponentModel.Composition.Primitives;
+using System.IO;
 
 namespace NinjaSoft.AboutModule.ViewModels
 {
@@ -12,7 +13,7 @@ namespace NinjaSoft.AboutModule.ViewModels
         public string AboutNotes
         {
             get { return _aboutNotes; }
-            set
+           private  set
             {
                 SetProperty(ref _aboutNotes, value);
             }
@@ -21,7 +22,11 @@ namespace NinjaSoft.AboutModule.ViewModels
         [ImportingConstructor]
         public AboutViewModel()
         {
-            AboutNotes = "Hi Mom";
+            var fileInf = new FileInfo(@"Resources\about.rtf");
+            if (fileInf.Exists)
+            {
+                AboutNotes = File.ReadAllText(fileInf.FullName);
+            }
         }
     }
 }
