@@ -25,7 +25,7 @@
                             </Grid.ColumnDefinitions>
 
                             <TextBox x:Name="TextBoxPath1"
-                                 VerticalAlignment="Center"
+                                 VerticalAlignment="Center" KeyUp="TextBoxPath_KeyUp"
                                  Text="{Binding Path1}" />
                             <Button x:Name="BtnPath1"
                                 Grid.Column="1"
@@ -44,7 +44,7 @@
                             </Grid.ColumnDefinitions>
 
                             <TextBox x:Name="TextBoxPath2"
-                                 VerticalAlignment="Center"
+                                 VerticalAlignment="Center" KeyUp="TextBoxPath_KeyUp"
                                  Text="{Binding Path2}" />
                             <Button x:Name="BtnPath2"
                                 Grid.Column="1"
@@ -64,7 +64,7 @@
 
                             <TextBox x:Name="TextBoxPath3"
                                  VerticalAlignment="Center"
-                                 Text="{Binding Path3}" />
+                                 Text="{Binding Path3}" KeyUp="TextBoxPath_KeyUp" />
                             <Button x:Name="BtnPath3"
                                 Grid.Column="1"
                                 Width="20"

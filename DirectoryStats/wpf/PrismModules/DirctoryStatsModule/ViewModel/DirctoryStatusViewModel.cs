@@ -44,7 +44,11 @@ namespace NinjaSoft.DirctoryStatsModule.ViewModel
             set
             {
                 SetProperty(ref _path1, value);
-                Scan();
+                var inf = new DirectoryInfo(value);
+                if (inf.Exists)
+                {
+                    Scan();
+                }
             }
         }
 
@@ -54,7 +58,11 @@ namespace NinjaSoft.DirctoryStatsModule.ViewModel
             set
             {
                 SetProperty(ref _path2, value);
-                Scan();
+                var inf = new DirectoryInfo(value);
+                if (inf.Exists)
+                {
+                    Scan();
+                }
             }
         }
 
@@ -64,7 +72,11 @@ namespace NinjaSoft.DirctoryStatsModule.ViewModel
             set
             {
                 SetProperty(ref _path3, value);
-                Scan();
+                var inf = new DirectoryInfo(value);
+                if (inf.Exists)
+                {
+                    Scan();
+                }
             }
         }
 
